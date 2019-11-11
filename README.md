@@ -1,0 +1,2 @@
+# couchdb
+couchdb auto-formation
