@@ -9,10 +9,11 @@
 
   Circuit:
    carte UNO WiFi Rev.2
-   
+
   TMP36: connecté en A3
   potentiomètre: connecté en A0
-  LED: connectée en D3
+  LED: connectée en D3 (brillance gérée par potentiomètre)
+  LED connectée en D3 (on/off selon dernier message MQTT reçu)
 
 */
 
@@ -42,11 +43,12 @@ char mqtt_pass[] = MQTT_PASS;
 const int potPin = A0;
 const int tmpPin = A3;
 const int ledPin = 3;
+const int lampe = 2;
 
 unsigned long tmpAvant = 0;
 unsigned long potAvant = 0;
-const long priseTemp = 5000; // 5 secondes
-const long prisePot = 1000;
+const long priseTemp = 10000; // 10 secondes
+const long prisePot = 5000; // 5 secondes
 
 void setup() {
   Serial.begin(9600);
@@ -80,14 +82,31 @@ void setup() {
 
   // initialisation du client MQTT
   mqttclient.setServer (mqtt_server, mqtt_port);
+  mqttclient.setCallback (callback);
 
   // préparation des entrées-sorties
   pinMode (ledPin, OUTPUT);
   digitalWrite(ledPin, LOW);
+  pinMode (lampe, OUTPUT);
+  digitalWrite (lampe, LOW);
+
+  // connexion au serveur mosquitto
+  if (!mqttclient.connected()) {
+    reconnect();
+  }
+
+  // abonnement au topic
+  if (!mqttclient.subscribe ("arduino/lampe")) {
+    Serial.println ("erreur abonnement");
+    while (true) ;
+  }
 }
 
 void loop() {
   unsigned long maintenant = millis ();
+
+  // vérifie l'arrivée de message
+  mqttclient.loop ();
 
   if ((maintenant - tmpAvant) >= priseTemp) {
     tmpAvant = maintenant;
@@ -134,36 +153,4 @@ void loop() {
       Serial.print(mqttclient.state());
     }
   }
-}
-
-// connexion au serveur Mosquitto
-void reconnect() {
-  while (!mqttclient.connected()) {
-    Serial.print(F("Tentative de connexion MQTT..."));
-    if (mqttclient.connect(F("arduinoClient"), mqtt_user, mqtt_pass)) {
-      Serial.println(F("Connexion réussie"));
-    } else {
-      Serial.print(F("connexion en échec, rc="));
-      Serial.print(mqttclient.state());
-      Serial.println(F("tentative dans 5 secondes"));
-      delay(5000);
-    }
-  }
-}
-
-void printWifiStatus() {
-  // affiche le nom de la box
-  Serial.print(F("SSID: "));
-  Serial.println(WiFi.SSID());
-
-  // affiche l'adresse IP
-  IPAddress ip = WiFi.localIP();
-  Serial.print(F("Adresse IP: "));
-  Serial.println(ip);
-
-  // affiche la force du signal
-  long rssi = WiFi.RSSI();
-  Serial.print(F("Force du signal (RSSI): "));
-  Serial.print(rssi);
-  Serial.println(F(" dBm"));
 }
