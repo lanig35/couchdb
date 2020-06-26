@@ -17,6 +17,11 @@
 #include <Ethernet2.h>
 #include <MQTT.h>
 
+//#include "dht.h"
+// dht dht11;
+#include <SimpleDHT.h>
+SimpleDHT11 dht11 (3);
+
 // Enter a MAC address for your controller below.
 // Newer Ethernet shields have a MAC address printed on a sticker on the shield
 byte mac[] = {
@@ -36,13 +41,20 @@ char mqtt_pass[] = MQTT_PASS;
 
 // variables pour la gestion des capteurs
 const int ldrPin = A0;
+const int lampe = 2;
 
-unsigned long ldrAvant = 0;
-const long priseLdr = 5000; // 5 secondes
+// variables pour les intervalles de capture
+unsigned long capteurAvant = 0;
+const long priseCapteur = 5000; // 5 secondes
+
+int lumAvant = 0;
 
 void setup()
 {
   Serial.begin(9600);
+
+  pinMode (lampe, OUTPUT);
+  digitalWrite (lampe, LOW);
 
   // start the Ethernet connection:
   if (Ethernet.begin(mac) == 0) {
@@ -57,13 +69,14 @@ void setup()
   printIPAddress ();
 
   mqttClient.begin (mqtt_server, mqtt_port, ethClient);
+  mqttClient.onMessageAdvanced (callback);
 
-    // connexion au serveur mosquitto
-    if (!mqttClient.connected()) {
+  // connexion au serveur mosquitto
+  if (!mqttClient.connected()) {
     reconnect();
   }
+  mqttClient.subscribe ("lampe/salle");
 }
-
 
 void loop()
 {
@@ -72,24 +85,59 @@ void loop()
   // vérifie l'arrivée de message
   mqttClient.loop ();
 
-  if ((maintenant - ldrAvant) >= priseLdr) {
-    ldrAvant = maintenant;
+  if ((maintenant - capteurAvant) >= priseCapteur) {
+    capteurAvant = maintenant;
+
+    // récupération de la température
+    //    int chk = dht11.read (3);
+    //    if (chk != DHTLIB_OK) {
+    byte temperature = 0;
+    byte humidity = 0;
+    int err = SimpleDHTErrSuccess;
+    if ((err = dht11.read(&temperature, &humidity, NULL)) != SimpleDHTErrSuccess) {
+      Serial.print("Read DHT11 failed, err="); Serial.println(err);
+      //      Serial.print ("Erreur DHT11: "); Serial.println(chk);
+    } else {
+      Serial.print ("temp: "); Serial.println ((float)temperature); //dht11.temperature);
+      Serial.print ("humi: "); Serial.println ((float)humidity); //dht11.humidity);
+    }
+
+    // récupération de la luminosité
     int sensor = analogRead (ldrPin);
-    int ldrValeur = map (sensor, 0, 1023, 0, 255);
-    Serial.print (F("lum: ")); Serial.println (ldrValeur);
+    int lumiere = map (sensor, 0, 1023, 0, 255);
+    Serial.print (F("lum: ")); Serial.println (lumiere);
 
     if (!mqttClient.connected()) {
       reconnect();
     }
 
-    // publication
-    // publication du potentiomètre
-    char message [4];
-    itoa (ldrValeur, message, 10);
-    if (mqttClient.publish("lum/eth", message)) {
-      Serial.println (F("luminosité publiée"));
-    } else {
-      Serial.print(F("Echec publication, rc="));
+    //    if (chk == DHTLIB_OK) {
+    if (temperature != 0) {
+      char message[8];
+      dtostrf (temperature, 4, 2, message);
+      if (mqttClient.publish("temperature/salle", message, true, 0)) {
+        Serial.println (F("temperature publiée"));
+      } else {
+        Serial.print(F("Echec publication, rc="));
+      }
+      dtostrf (humidity, 4, 2, message);
+      if (mqttClient.publish("humidite/salle", message, true, 0)) {
+        Serial.println (F("humididté publiée"));
+      } else {
+        Serial.print(F("Echec publication, rc="));
+      }
+    }
+
+    if (lumiere != lumAvant) {
+      lumAvant = lumiere;
+      // publication de la lumiere
+      char message [4];
+      itoa (lumiere, message, 10);
+      if (mqttClient.publish("lumiere/salle", message, true, 0)) {
+        Serial.println (F("luminosité publiée"));
+      } else {
+        Serial.print(F("Echec publication, rc="));
+      }
     }
   }
 }

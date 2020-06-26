@@ -24,16 +24,14 @@ void callback (char *topic, byte* message, unsigned int taille) {
 
 // connexion au serveur Mosquitto
 void reconnect() {
-  while (!mqttclient.connected()) {
-    Serial.print(F("Tentative de connexion MQTT..."));
-    if (mqttclient.connect(F("arduinoClient"), mqtt_user, mqtt_pass)) {
-      Serial.println(F("Connexion réussie"));
-    } else {
-      Serial.print(F("connexion en échec, rc="));
-      Serial.print(mqttclient.state());
-      Serial.println(F("tentative dans 5 secondes"));
-      delay(5000);
-    }
+  Serial.print(F("Tentative de connexion MQTT..."));
+  if (mqttclient.connect("arduinoClient", mqtt_user, mqtt_pass, "erreur/salon", 0, 1, "Bye")) {
+    Serial.println(F("Connexion réussie"));
+  } else {
+    Serial.print(F("connexion en échec, rc="));
+    Serial.print(mqttclient.state());
+    Serial.println(F(" tentative dans 2 secondes"));
+    delay(2000);
   }
 }
 

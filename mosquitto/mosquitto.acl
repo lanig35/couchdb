@@ -6,7 +6,9 @@ user roger
 topic foo/bar
 
 user telegraf
-topic arduino/temp
+topic read temperature/#
+topic read lumiere/#
+topic read humidite/#
 
 # This affects all clients.
 pattern write $SYS/broker/connection/%c/state

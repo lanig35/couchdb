@@ -6,7 +6,7 @@ import requests
 import time
 
 # récupération liste des pays
-with open ('../countries.json', mode='r', encoding='utf8') as f:
+with open ('../dataset/countries.json', mode='r', encoding='utf8') as f:
     liste_pays = json.load(f)
 
 # ajout des pays dans la base
@@ -23,12 +23,12 @@ for item in liste_pays.keys ():
     flag.close ()
 
     # ajout du pays
-    r = requests.put ('http://127.0.0.1:5984/pays/'+item.lower(), data=json.dumps (pays))
+    r = requests.put ('http://127.0.0.1:5984/pays/'+item.lower(), data=json.dumps (pays), auth=('admin','reverse'))
     rev = r.json()['rev']
     print (rev)
 
     # ajout du drapeau en attachement
     param = {'rev': rev}
-    r = requests.put ('http://127.0.0.1:5984/pays/'+item.lower()+'/file', params=param, headers=headers, data= open('flag.svg','rb'))
+    r = requests.put ('http://127.0.0.1:5984/pays/'+item.lower()+'/file', params=param, headers=headers, data= open('flag.svg','rb'), auth=('admin','reverse'))
     print (r.text)
     time.sleep (1)

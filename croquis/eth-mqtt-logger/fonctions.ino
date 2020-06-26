@@ -1,5 +1,5 @@
 // fonction appelée sur réception d'un message
-void callback (char *topic, byte* message, unsigned int taille) {
+void callback (MQTTClient *client, char *topic, char* message, int taille) {
   Serial.print ("message reçu ["); Serial.print (topic);
   Serial.print (" - "); Serial.print (taille);
   Serial.print("] ");
@@ -8,7 +8,6 @@ void callback (char *topic, byte* message, unsigned int taille) {
   }
   Serial.println();
 
-  /*
     char cmd [5];
     memcpy (cmd, message, taille);
     cmd [taille] = '\0';
@@ -21,12 +20,12 @@ void callback (char *topic, byte* message, unsigned int taille) {
     } else {
       Serial.println ("erreur message");
     }
-  */
 }
 
 // connexion au serveur Mosquitto
 void reconnect() {
   Serial.print("connecting...");
+  mqttClient.setWill ("erreur/salle", "bye", true, 0);
   while (!mqttClient.connect("eth-1", mqtt_user, mqtt_pass)) {
     Serial.println(".");
     delay(5000);
