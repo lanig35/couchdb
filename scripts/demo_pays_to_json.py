@@ -10,12 +10,15 @@ with open ("../dataset/démographie_pays.csv","r",encoding="ISO_8859-3") as f:
         print (row["Pays"])
         item = {}
         item["nom"] = row ["Pays"]
-        item["natalite"] = float(row ["Taux de natalité"])
-        item["mortalite"] = float(row ["Taux de mortalité"])
-        item["esperance"] = float(row ["Espérance de vie"])
-        item["croissance"] = float (row ["Taux de croissance"])
-        item["enfant"] = float (row ["Nombre d?enfant(s) par femme"])
+        item["demographic"] = {
+            "birthRate" : float(row ["Taux de natalité"]),
+            "mortalityRate" : float(row ["Taux de mortalité"]),
+            "lifeExpectancy" : float(row ["Espérance de vie"]),
+            "infantMortality" : float(row ["Taux de mortalité infantile"]),
+            "childPerWoman" : float(row["Nombre d?enfant(s) par femme"])
+        }
+        item["economicGrowth"] = float (row ["Taux de croissance"])
         pays.append(item)
 
 with open ("../dataset/demographie.json", "w", encoding="utf-8") as f:
-    f.write (json.dumps(pays, ensure_ascii=False))
+    f.write (json.dumps(pays, indent=2, ensure_ascii=False))

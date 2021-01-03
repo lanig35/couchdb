@@ -36,4 +36,4 @@ with open ("../dataset/departements-francais.csv","r",encoding="utf-8") as f:
         depts.append(dept)
 
 with open ("../dataset/depts.json", "w", encoding="utf-8") as f:
-    f.write (json.dumps(depts, ensure_ascii=False))
+    f.write (json.dumps(depts, indent=2, ensure_ascii=False))

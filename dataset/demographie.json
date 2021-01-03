@@ -1,1 +1,2224 @@
-[{"nom": "Afrique du Sud", "natalite": 19.4, "mortalite": 9.4, "esperance": 64.6, "croissance": 12.1, "enfant": 2.34}, {"nom": "Botswana", "natalite": 23.1, "mortalite": 5.8, "esperance": 69.9, "croissance": 18.7, "enfant": 2.76}, {"nom": "Eswatini", "natalite": 24.9, "mortalite": 8.8, "esperance": 61.0, "croissance": 10.5, "enfant": 2.88}, {"nom": "Lesotho", "natalite": 25.6, "mortalite": 13.5, "esperance": 55.2, "croissance": 7.8, "enfant": 3.03}, {"nom": "Namibie", "natalite": 27.2, "mortalite": 7.6, "esperance": 64.4, "croissance": 18.0, "enfant": 3.24}, {"nom": "Angola", "natalite": 39.4, "mortalite": 7.6, "esperance": 61.8, "croissance": 31.8, "enfant": 5.3}, {"nom": "Cameroun", "natalite": 34.0, "mortalite": 8.7, "esperance": 59.9, "croissance": 25.1, "enfant": 4.38}, {"nom": "République centrafricaine", "natalite": 34.7, "mortalite": 11.5, "esperance": 54.0, "croissance": 19.0, "enfant": 4.49}, {"nom": "Congo", "natalite": 31.6, "mortalite": 6.5, "esperance": 65.0, "croissance": 24.7, "enfant": 4.27}, {"nom": "Congo", "natalite": 39.6, "mortalite": 9.0, "esperance": 61.2, "croissance": 30.7, "enfant": 5.62}, {"nom": "Gabon", "natalite": 29.5, "mortalite": 6.5, "esperance": 66.9, "croissance": 23.2, "enfant": 3.81}, {"nom": "Guinée équatoriale", "natalite": 31.9, "mortalite": 8.7, "esperance": 59.4, "croissance": 32.3, "enfant": 4.27}, {"nom": "Sao Tomé-et-Principe", "natalite": 30.5, "mortalite": 4.7, "esperance": 70.8, "croissance": 19.1, "enfant": 4.16}, {"nom": "Tchad", "natalite": 40.7, "mortalite": 11.5, "esperance": 54.8, "croissance": 29.2, "enfant": 5.46}, {"nom": "Bénin", "natalite": 35.1, "mortalite": 8.4, "esperance": 62.4, "croissance": 26.6, "enfant": 4.64}, {"nom": "Burkina Faso", "natalite": 36.5, "mortalite": 7.5, "esperance": 62.4, "croissance": 27.9, "enfant": 4.95}, {"nom": "Cap-Vert", "natalite": 18.2, "mortalite": 5.5, "esperance": 73.3, "croissance": 10.4, "enfant": 2.19}, {"nom": "Côte d'Ivoire", "natalite": 34.9, "mortalite": 9.6, "esperance": 58.4, "croissance": 25.2, "enfant": 4.48}, {"nom": "Gambie", "natalite": 37.1, "mortalite": 7.4, "esperance": 62.7, "croissance": 28.5, "enfant": 5.02}, {"nom": "Ghana", "natalite": 28.2, "mortalite": 7.1, "esperance": 64.6, "croissance": 20.8, "enfant": 3.72}, {"nom": "Guinée", "natalite": 35.2, "mortalite": 7.9, "esperance": 62.3, "croissance": 27.2, "enfant": 4.48}, {"nom": "Guinée-Bissau", "natalite": 33.5, "mortalite": 9.1, "esperance": 58.9, "croissance": 23.7, "enfant": 4.26}, {"nom": "Libéria", "natalite": 32.0, "mortalite": 7.2, "esperance": 64.7, "croissance": 23.9, "enfant": 4.12}, {"nom": "Mali", "natalite": 40.1, "mortalite": 8.9, "esperance": 60.1, "croissance": 29.3, "enfant": 5.6}, {"nom": "Mauritanie", "natalite": 32.4, "mortalite": 6.9, "esperance": 65.3, "croissance": 26.4, "enfant": 4.4}, {"nom": "Niger", "natalite": 44.8, "mortalite": 7.6, "esperance": 63.1, "croissance": 37.3, "enfant": 6.65}, {"nom": "Nigéria", "natalite": 36.6, "mortalite": 11.2, "esperance": 55.3, "croissance": 25.1, "enfant": 5.18}, {"nom": "Sénégal", "natalite": 32.9, "mortalite": 5.4, "esperance": 68.5, "croissance": 26.5, "enfant": 4.43}, {"nom": "Sierra Leone", "natalite": 31.8, "mortalite": 11.1, "esperance": 55.4, "croissance": 20.2, "enfant": 3.99}, {"nom": "Togo", "natalite": 32.0, "mortalite": 8.1, "esperance": 61.7, "croissance": 23.7, "enfant": 4.14}, {"nom": "Burundi", "natalite": 37.2, "mortalite": 7.5, "esperance": 62.2, "croissance": 30.0, "enfant": 5.16}, {"nom": "Comores", "natalite": 30.5, "mortalite": 7.0, "esperance": 64.7, "croissance": 21.3, "enfant": 4.01}, {"nom": "Djibouti", "natalite": 20.1, "mortalite": 6.9, "esperance": 67.7, "croissance": 14.0, "enfant": 2.58}, {"nom": "Erythrée", "natalite": 28.7, "mortalite": 6.7, "esperance": 67.0, "croissance": 16.1, "enfant": 3.87}, {"nom": "Ethiopie", "natalite": 31.0, "mortalite": 6.2, "esperance": 67.3, "croissance": 24.8, "enfant": 3.96}, {"nom": "Kenya", "natalite": 27.6, "mortalite": 5.3, "esperance": 67.2, "croissance": 22.2, "enfant": 3.31}, {"nom": "Madagascar", "natalite": 31.9, "mortalite": 5.7, "esperance": 67.7, "croissance": 26.2, "enfant": 3.93}, {"nom": "Malawi", "natalite": 33.2, "mortalite": 6.1, "esperance": 65.1, "croissance": 26.7, "enfant": 3.99}, {"nom": "Maurice", "natalite": 9.9, "mortalite": 8.9, "esperance": 75.3, "croissance": 1.2, "enfant": 1.35}, {"nom": "Mayotte", "natalite": 26.8, "mortalite": 2.8, "esperance": 79.6, "croissance": 24.1, "enfant": 3.52}, {"nom": "Mozambique", "natalite": 36.4, "mortalite": 7.8, "esperance": 61.8, "croissance": 28.5, "enfant": 4.64}, {"nom": "Ouganda", "natalite": 36.0, "mortalite": 6.1, "esperance": 64.0, "croissance": 28.6, "enfant": 4.59}, {"nom": "Réunion", "natalite": 14.2, "mortalite": 6.4, "esperance": 81.1, "croissance": 7.1, "enfant": 2.19}, {"nom": "Rwanda", "natalite": 30.1, "mortalite": 5.0, "esperance": 69.6, "croissance": 24.4, "enfant": 3.85}, {"nom": "Seychelles", "natalite": 15.6, "mortalite": 8.0, "esperance": 73.6, "croissance": 5.5, "enfant": 2.39}, {"nom": "Somalie", "natalite": 41.2, "mortalite": 10.3, "esperance": 58.0, "croissance": 29.0, "enfant": 5.79}, {"nom": "Sud Soudan", "natalite": 33.9, "mortalite": 10.1, "esperance": 58.4, "croissance": 18.6, "enfant": 4.47}, {"nom": "Tanzanie", "natalite": 35.6, "mortalite": 6.0, "esperance": 66.1, "croissance": 29.0, "enfant": 4.71}, {"nom": "Zambie", "natalite": 35.2, "mortalite": 6.1, "esperance": 64.5, "croissance": 28.7, "enfant": 4.44}, {"nom": "Zimbabwe", "natalite": 28.4, "mortalite": 7.6, "esperance": 62.0, "croissance": 15.5, "enfant": 3.4}, {"nom": "Algérie", "natalite": 21.9, "mortalite": 4.7, "esperance": 77.2, "croissance": 16.8, "enfant": 2.89}, {"nom": "Egypte", "natalite": 24.5, "mortalite": 5.7, "esperance": 72.3, "croissance": 18.3, "enfant": 3.19}, {"nom": "Libye", "natalite": 17.3, "mortalite": 5.2, "esperance": 73.2, "croissance": 12.2, "enfant": 2.15}, {"nom": "Maroc", "natalite": 17.7, "mortalite": 5.1, "esperance": 77.1, "croissance": 11.6, "enfant": 2.33}, {"nom": "Sahara occidental", "natalite": 19.1, "mortalite": 4.9, "esperance": 70.7, "croissance": 23.6, "enfant": 2.31}, {"nom": "Soudan", "natalite": 31.2, "mortalite": 7.0, "esperance": 65.8, "croissance": 23.9, "enfant": 4.23}, {"nom": "Tunisie", "natalite": 16.1, "mortalite": 6.3, "esperance": 77.1, "croissance": 9.6, "enfant": 2.13}, {"nom": "Belize", "natalite": 20.0, "mortalite": 4.8, "esperance": 74.9, "croissance": 18.0, "enfant": 2.22}, {"nom": "Costa Rica", "natalite": 13.1, "mortalite": 5.3, "esperance": 80.7, "croissance": 8.6, "enfant": 1.7}, {"nom": "Guatemala", "natalite": 23.5, "mortalite": 4.7, "esperance": 74.7, "croissance": 18.3, "enfant": 2.73}, {"nom": "Honduras", "natalite": 20.8, "mortalite": 4.5, "esperance": 75.6, "croissance": 15.7, "enfant": 2.36}, {"nom": "Mexique", "natalite": 16.7, "mortalite": 6.2, "esperance": 75.2, "croissance": 10.1, "enfant": 2.06}, {"nom": "Nicaragua", "natalite": 19.4, "mortalite": 5.1, "esperance": 74.9, "croissance": 11.5, "enfant": 2.32}, {"nom": "Panama", "natalite": 18.2, "mortalite": 5.2, "esperance": 78.9, "croissance": 15.1, "enfant": 2.4}, {"nom": "Salvador", "natalite": 17.6, "mortalite": 7.1, "esperance": 73.7, "croissance": 4.9, "enfant": 1.98}, {"nom": "Argentine", "natalite": 16.5, "mortalite": 7.6, "esperance": 77.0, "croissance": 8.9, "enfant": 2.22}, {"nom": "Bolivie", "natalite": 20.9, "mortalite": 6.8, "esperance": 72.0, "croissance": 13.5, "enfant": 2.62}, {"nom": "Brésil", "natalite": 13.2, "mortalite": 6.7, "esperance": 76.3, "croissance": 6.5, "enfant": 1.69}, {"nom": "Chili", "natalite": 11.8, "mortalite": 6.4, "esperance": 80.5, "croissance": 3.5, "enfant": 1.6}, {"nom": "Colombie", "natalite": 14.2, "mortalite": 5.8, "esperance": 77.6, "croissance": 6.2, "enfant": 1.75}, {"nom": "Equateur", "natalite": 18.9, "mortalite": 5.2, "esperance": 77.4, "croissance": 13.2, "enfant": 2.36}, {"nom": "Guyane", "natalite": 19.2, "mortalite": 7.8, "esperance": 70.1, "croissance": 4.7, "enfant": 2.4}, {"nom": "Guyane (française)", "natalite": 24.3, "mortalite": 3.0, "esperance": 80.3, "croissance": 25.3, "enfant": 3.25}, {"nom": "Paraguay", "natalite": 19.8, "mortalite": 5.6, "esperance": 74.5, "croissance": 12.0, "enfant": 2.36}, {"nom": "Pérou", "natalite": 17.3, "mortalite": 5.7, "esperance": 77.2, "croissance": 10.7, "enfant": 2.19}, {"nom": "Surinam", "natalite": 17.8, "mortalite": 7.5, "esperance": 71.9, "croissance": 8.6, "enfant": 2.35}, {"nom": "Uruguay", "natalite": 13.5, "mortalite": 9.5, "esperance": 78.2, "croissance": 3.2, "enfant": 1.94}, {"nom": "Venezuela", "natalite": 17.1, "mortalite": 7.3, "esperance": 72.1, "croissance": 14.4, "enfant": 2.21}, {"nom": "Antigua-et-Barbuda", "natalite": 14.6, "mortalite": 6.6, "esperance": 77.3, "croissance": 8.0, "enfant": 1.97}, {"nom": "Aruba", "natalite": 11.9, "mortalite": 9.5, "esperance": 76.6, "croissance": 3.9, "enfant": 1.9}, {"nom": "Bahamas", "natalite": 13.7, "mortalite": 7.0, "esperance": 74.2, "croissance": 9.2, "enfant": 1.72}, {"nom": "Barbade", "natalite": 10.6, "mortalite": 9.2, "esperance": 79.4, "croissance": 1.1, "enfant": 1.63}, {"nom": "Cuba", "natalite": 9.6, "mortalite": 9.5, "esperance": 79.0, "croissance": -0.9, "enfant": 1.58}, {"nom": "Curaçao", "natalite": 10.5, "mortalite": 9.2, "esperance": 79.2, "croissance": 4.4, "enfant": 1.71}, {"nom": "République dominicaine", "natalite": 18.5, "mortalite": 6.3, "esperance": 74.4, "croissance": 9.5, "enfant": 2.27}, {"nom": "Grenade", "natalite": 15.6, "mortalite": 9.6, "esperance": 72.5, "croissance": 4.2, "enfant": 2.0}, {"nom": "Guadeloupe", "natalite": 11.4, "mortalite": 8.6, "esperance": 82.5, "croissance": -0.4, "enfant": 2.12}, {"nom": "Haïti", "natalite": 23.2, "mortalite": 8.3, "esperance": 64.6, "croissance": 12.0, "enfant": 2.8}, {"nom": "Îles Vierges américaines", "natalite": 11.2, "mortalite": 9.3, "esperance": 80.9, "croissance": -2.2, "enfant": 1.98}, {"nom": "Jamaïque", "natalite": 15.5, "mortalite": 7.6, "esperance": 74.7, "croissance": 4.0, "enfant": 1.94}, {"nom": "Martinique", "natalite": 9.5, "mortalite": 9.5, "esperance": 82.9, "croissance": -1.6, "enfant": 1.84}, {"nom": "Porto Rico", "natalite": 6.5, "mortalite": 10.1, "esperance": 80.4, "croissance": -5.5, "enfant": 1.17}, {"nom": "Sainte Lucie", "natalite": 11.5, "mortalite": 7.4, "esperance": 76.5, "croissance": 4.0, "enfant": 1.4}, {"nom": "St Vincent-et-les-Grenadines", "natalite": 13.8, "mortalite": 9.4, "esperance": 72.8, "croissance": 2.8, "enfant": 1.84}, {"nom": "Trinité-et-Tobago", "natalite": 11.9, "mortalite": 8.8, "esperance": 73.7, "croissance": 2.5, "enfant": 1.69}, {"nom": "Caraïbes", "natalite": 15.8, "mortalite": 8.2, "esperance": 73.1, "croissance": 5.5, "enfant": 2.14}, {"nom": "Canada", "natalite": 10.2, "mortalite": 7.9, "esperance": 82.7, "croissance": 8.5, "enfant": 1.49}, {"nom": "Etats-Unis", "natalite": 12.0, "mortalite": 9.0, "esperance": 79.0, "croissance": 5.7, "enfant": 1.77}, {"nom": "Biélorussie", "natalite": 11.2, "mortalite": 12.5, "esperance": 75.1, "croissance": -0.9, "enfant": 1.73}, {"nom": "Bulgarie", "natalite": 8.7, "mortalite": 15.6, "esperance": 75.3, "croissance": -7.5, "enfant": 1.6}, {"nom": "Hongrie", "natalite": 9.4, "mortalite": 12.8, "esperance": 77.2, "croissance": -2.8, "enfant": 1.53}, {"nom": "Moldavie", "natalite": 9.6, "mortalite": 11.9, "esperance": 72.1, "croissance": -2.6, "enfant": 1.29}, {"nom": "Pologne", "natalite": 9.4, "mortalite": 10.5, "esperance": 79.1, "croissance": -1.4, "enfant": 1.46}, {"nom": "Roumanie", "natalite": 9.4, "mortalite": 13.3, "esperance": 76.3, "croissance": -5.4, "enfant": 1.65}, {"nom": "Russie", "natalite": 11.8, "mortalite": 12.9, "esperance": 72.9, "croissance": -0.4, "enfant": 1.83}, {"nom": "Slovaquie", "natalite": 10.1, "mortalite": 10.2, "esperance": 77.8, "croissance": 0.1, "enfant": 1.54}, {"nom": "Tchéquie", "natalite": 10.0, "mortalite": 10.7, "esperance": 79.7, "croissance": 1.3, "enfant": 1.68}, {"nom": "Ukraine", "natalite": 8.9, "mortalite": 15.2, "esperance": 72.3, "croissance": -6.2, "enfant": 1.43}, {"nom": "Allemagne", "natalite": 9.5, "mortalite": 11.6, "esperance": 81.6, "croissance": 0.6, "enfant": 1.61}, {"nom": "Autriche", "natalite": 10.0, "mortalite": 10.0, "esperance": 81.8, "croissance": 3.3, "enfant": 1.56}, {"nom": "Belgique", "natalite": 10.7, "mortalite": 9.8, "esperance": 81.9, "croissance": 3.4, "enfant": 1.72}, {"nom": "France", "natalite": 10.9, "mortalite": 9.5, "esperance": 82.9, "croissance": 2.4, "enfant": 1.84}, {"nom": "Luxembourg", "natalite": 10.4, "mortalite": 7.1, "esperance": 82.6, "croissance": 12.9, "enfant": 1.42}, {"nom": "Pays-Bas", "natalite": 10.1, "mortalite": 9.0, "esperance": 82.6, "croissance": 2.2, "enfant": 1.67}, {"nom": "Suisse", "natalite": 10.2, "mortalite": 8.1, "esperance": 84.1, "croissance": 6.8, "enfant": 1.55}, {"nom": "Anglo-Normandes (Îles)", "natalite": 9.8, "mortalite": 7.9, "esperance": 83.4, "croissance": 7.4, "enfant": 1.52}, {"nom": "Danemark", "natalite": 11.0, "mortalite": 9.9, "esperance": 81.2, "croissance": 3.7, "enfant": 1.77}, {"nom": "Estonie", "natalite": 10.1, "mortalite": 12.0, "esperance": 79.0, "croissance": -1.8, "enfant": 1.62}, {"nom": "Finlande", "natalite": 8.7, "mortalite": 9.9, "esperance": 82.2, "croissance": 1.3, "enfant": 1.44}, {"nom": "Irlande", "natalite": 11.7, "mortalite": 6.3, "esperance": 82.6, "croissance": 8.3, "enfant": 1.8}, {"nom": "Islande", "natalite": 11.6, "mortalite": 6.8, "esperance": 83.3, "croissance": 6.0, "enfant": 1.72}, {"nom": "Lettonie", "natalite": 10.2, "mortalite": 14.9, "esperance": 75.5, "croissance": -10.0, "enfant": 1.75}, {"nom": "Lituanie", "natalite": 10.0, "mortalite": 14.1, "esperance": 76.2, "croissance": -11.3, "enfant": 1.7}, {"nom": "Norvège", "natalite": 11.1, "mortalite": 7.9, "esperance": 82.7, "croissance": 8.2, "enfant": 1.68}, {"nom": "Royaume Uni", "natalite": 11.3, "mortalite": 9.5, "esperance": 81.5, "croissance": 4.5, "enfant": 1.74}, {"nom": "Suède", "natalite": 11.8, "mortalite": 9.1, "esperance": 83.1, "croissance": 5.9, "enfant": 1.84}, {"nom": "Albanie", "natalite": 11.3, "mortalite": 8.4, "esperance": 78.8, "croissance": -2.0, "enfant": 1.56}, {"nom": "Bosnie-Herzégovine", "natalite": 7.6, "mortalite": 11.2, "esperance": 77.7, "croissance": -4.8, "enfant": 1.23}, {"nom": "Croatie", "natalite": 8.5, "mortalite": 13.3, "esperance": 78.8, "croissance": -5.6, "enfant": 1.42}, {"nom": "Espagne", "natalite": 8.0, "mortalite": 9.4, "esperance": 83.8, "croissance": -0.4, "enfant": 1.37}, {"nom": "Grèce", "natalite": 7.1, "mortalite": 11.2, "esperance": 82.6, "croissance": -5.1, "enfant": 1.27}, {"nom": "Italie", "natalite": 7.1, "mortalite": 10.8, "esperance": 83.8, "croissance": -1.7, "enfant": 1.3}, {"nom": "Macédoine du Nord", "natalite": 10.3, "mortalite": 10.3, "esperance": 76.1, "croissance": -0.5, "enfant": 1.48}, {"nom": "Malte", "natalite": 9.8, "mortalite": 8.7, "esperance": 82.8, "croissance": 2.8, "enfant": 1.49}, {"nom": "Monténégro", "natalite": 11.5, "mortalite": 10.8, "esperance": 77.2, "croissance": -0.1, "enfant": 1.75}, {"nom": "Portugal", "natalite": 7.7, "mortalite": 11.0, "esperance": 82.4, "croissance": -2.8, "enfant": 1.33}, {"nom": "Serbie", "natalite": 9.2, "mortalite": 13.2, "esperance": 76.3, "croissance": -4.9, "enfant": 1.43}, {"nom": "Slovénie", "natalite": 9.2, "mortalite": 10.3, "esperance": 81.6, "croissance": -0.2, "enfant": 1.63}, {"nom": "Australie", "natalite": 12.3, "mortalite": 6.7, "esperance": 83.7, "croissance": 11.0, "enfant": 1.8}, {"nom": "Nouvelle-Zélande", "natalite": 12.3, "mortalite": 7.1, "esperance": 82.6, "croissance": 7.8, "enfant": 1.86}, {"nom": "Fidji", "natalite": 20.2, "mortalite": 8.4, "esperance": 67.7, "croissance": 7.2, "enfant": 2.7}, {"nom": "Nouvelle-Calédonie", "natalite": 13.6, "mortalite": 6.0, "esperance": 77.9, "croissance": 9.4, "enfant": 1.91}, {"nom": "Papouasie-Nouvelle-Guinée", "natalite": 26.3, "mortalite": 7.3, "esperance": 64.9, "croissance": 18.9, "enfant": 3.44}, {"nom": " Îles Salomon", "natalite": 30.9, "mortalite": 4.2, "esperance": 73.2, "croissance": 24.4, "enfant": 4.25}, {"nom": "Vanuatu", "natalite": 28.4, "mortalite": 5.1, "esperance": 70.8, "croissance": 23.4, "enfant": 3.67}, {"nom": "Guam", "natalite": 16.2, "mortalite": 5.4, "esperance": 80.5, "croissance": 8.1, "enfant": 2.26}, {"nom": "Kiribati", "natalite": 26.5, "mortalite": 6.2, "esperance": 68.8, "croissance": 16.4, "enfant": 3.46}, {"nom": "Micronésie (États fédérés de)", "natalite": 22.5, "mortalite": 6.8, "esperance": 68.1, "croissance": 10.6, "enfant": 2.93}, {"nom": "Polynésie française", "natalite": 13.9, "mortalite": 5.9, "esperance": 78.0, "croissance": 5.8, "enfant": 1.9}, {"nom": "Samoa occidentales", "natalite": 23.6, "mortalite": 5.2, "esperance": 73.6, "croissance": 9.6, "enfant": 3.74}, {"nom": "Tonga", "natalite": 23.5, "mortalite": 7.0, "esperance": 71.1, "croissance": 9.6, "enfant": 3.45}, {"nom": "Chine", "natalite": 11.0, "mortalite": 7.6, "esperance": 77.3, "croissance": 3.2, "enfant": 1.7}, {"nom": "Chine - Hong Kong", "natalite": 11.0, "mortalite": 7.0, "esperance": 85.1, "croissance": 7.1, "enfant": 1.39}, {"nom": "Chine - Macao", "natalite": 10.5, "mortalite": 4.2, "esperance": 84.5, "croissance": 13.8, "enfant": 1.26}, {"nom": "Corée du Nord", "natalite": 13.7, "mortalite": 9.4, "esperance": 72.6, "croissance": 4.1, "enfant": 1.88}, {"nom": "Corée du Sud", "natalite": 6.9, "mortalite": 6.6, "esperance": 83.3, "croissance": 0.6, "enfant": 1.08}, {"nom": "Japon", "natalite": 7.1, "mortalite": 11.2, "esperance": 84.9, "croissance": -3.5, "enfant": 1.36}, {"nom": "Mongolie", "natalite": 21.8, "mortalite": 6.4, "esperance": 70.2, "croissance": 15.0, "enfant": 2.8}, {"nom": "Taïwan", "natalite": 8.4, "mortalite": 7.9, "esperance": 80.8, "croissance": 1.5, "enfant": 1.21}, {"nom": "Arabie saoudite", "natalite": 16.3, "mortalite": 3.6, "esperance": 75.4, "croissance": 14.6, "enfant": 2.21}, {"nom": "Arménie", "natalite": 12.9, "mortalite": 9.8, "esperance": 75.4, "croissance": 1.5, "enfant": 1.76}, {"nom": "Azerbaïdjan", "natalite": 14.9, "mortalite": 6.9, "esperance": 73.2, "croissance": 7.9, "enfant": 2.03}, {"nom": "Bahreïn", "natalite": 12.9, "mortalite": 2.5, "esperance": 77.5, "croissance": 23.7, "enfant": 1.92}, {"nom": "Chypre", "natalite": 9.8, "mortalite": 7.3, "esperance": 81.3, "croissance": 6.6, "enfant": 1.31}, {"nom": "Emirats Arabes Unis", "natalite": 10.0, "mortalite": 1.7, "esperance": 78.3, "croissance": 9.6, "enfant": 1.36}, {"nom": "Géorgie", "natalite": 12.6, "mortalite": 12.7, "esperance": 74.1, "croissance": -2.6, "enfant": 2.04}, {"nom": "Irak", "natalite": 27.8, "mortalite": 4.7, "esperance": 70.9, "croissance": 23.6, "enfant": 3.49}, {"nom": "Israël", "natalite": 19.4, "mortalite": 5.3, "esperance": 83.3, "croissance": 15.2, "enfant": 2.97}, {"nom": "Jordanie", "natalite": 20.8, "mortalite": 3.9, "esperance": 74.8, "croissance": 4.8, "enfant": 2.6}, {"nom": "Koweït", "natalite": 12.1, "mortalite": 3.0, "esperance": 75.7, "croissance": 12.7, "enfant": 2.06}, {"nom": "Liban", "natalite": 16.9, "mortalite": 4.7, "esperance": 79.1, "croissance": -10.4, "enfant": 2.05}, {"nom": "Oman", "natalite": 17.0, "mortalite": 2.4, "esperance": 78.3, "croissance": 20.8, "enfant": 2.72}, {"nom": "Palestine", "natalite": 27.8, "mortalite": 3.4, "esperance": 74.4, "croissance": 23.4, "enfant": 3.43}, {"nom": "Qatar", "natalite": 9.1, "mortalite": 1.4, "esperance": 80.5, "croissance": 16.9, "enfant": 1.81}, {"nom": "Syrie", "natalite": 22.2, "mortalite": 4.5, "esperance": 74.6, "croissance": 50.6, "enfant": 2.7}, {"nom": "Turquie", "natalite": 15.3, "mortalite": 5.5, "esperance": 78.2, "croissance": 7.2, "enfant": 2.02}, {"nom": "Yémen", "natalite": 28.7, "mortalite": 6.0, "esperance": 66.3, "croissance": 21.8, "enfant": 3.53}, {"nom": "Afghanistan", "natalite": 30.5, "mortalite": 6.0, "esperance": 65.5, "croissance": 22.9, "enfant": 4.04}, {"nom": "Bangladesh", "natalite": 17.2, "mortalite": 5.5, "esperance": 73.1, "croissance": 9.6, "enfant": 1.96}, {"nom": "Bhoutan", "natalite": 16.4, "mortalite": 6.3, "esperance": 72.4, "croissance": 10.5, "enfant": 1.91}, {"nom": "Inde", "natalite": 17.2, "mortalite": 7.3, "esperance": 70.1, "croissance": 9.6, "enfant": 2.17}, {"nom": "Iran", "natalite": 17.4, "mortalite": 4.8, "esperance": 77.1, "croissance": 11.9, "enfant": 2.13}, {"nom": "Kazakhstan", "natalite": 18.9, "mortalite": 7.1, "esperance": 73.9, "croissance": 11.3, "enfant": 2.68}, {"nom": "Kirgizistan", "natalite": 22.5, "mortalite": 5.8, "esperance": 71.7, "croissance": 15.4, "enfant": 2.87}, {"nom": "Maldives", "natalite": 12.6, "mortalite": 2.7, "esperance": 79.5, "croissance": 0.4, "enfant": 1.79}, {"nom": "Népal", "natalite": 18.9, "mortalite": 6.3, "esperance": 71.3, "croissance": 18.3, "enfant": 1.82}, {"nom": "Ouzbékistan", "natalite": 19.6, "mortalite": 5.8, "esperance": 71.9, "croissance": 13.5, "enfant": 2.35}, {"nom": "Pakistan", "natalite": 26.9, "mortalite": 6.8, "esperance": 67.6, "croissance": 19.1, "enfant": 3.33}, {"nom": "Sri Lanka", "natalite": 15.0, "mortalite": 7.0, "esperance": 77.3, "croissance": 3.8, "enfant": 2.16}, {"nom": "Tadjikistan", "natalite": 28.4, "mortalite": 4.6, "esperance": 71.5, "croissance": 21.5, "enfant": 3.48}, {"nom": "Turkménistan", "natalite": 21.7, "mortalite": 7.1, "esperance": 68.4, "croissance": 14.0, "enfant": 2.67}, {"nom": "Brunei", "natalite": 13.7, "mortalite": 4.8, "esperance": 76.1, "croissance": 9.0, "enfant": 1.78}, {"nom": "Cambodge", "natalite": 21.1, "mortalite": 6.0, "esperance": 70.3, "croissance": 13.3, "enfant": 2.43}, {"nom": "Indonésie", "natalite": 17.2, "mortalite": 6.6, "esperance": 72.1, "croissance": 10.2, "enfant": 2.25}, {"nom": "Laos", "natalite": 22.2, "mortalite": 6.3, "esperance": 68.5, "croissance": 13.9, "enfant": 2.54}, {"nom": "Malaisie", "natalite": 16.2, "mortalite": 5.3, "esperance": 76.4, "croissance": 12.4, "enfant": 1.95}, {"nom": "Myanmar", "natalite": 17.1, "mortalite": 8.3, "esperance": 67.6, "croissance": 7.5, "enfant": 2.1}, {"nom": "Philippines", "natalite": 19.7, "mortalite": 6.0, "esperance": 71.5, "croissance": 13.2, "enfant": 2.47}, {"nom": "Singapour", "natalite": 8.4, "mortalite": 4.9, "esperance": 83.9, "croissance": 7.9, "enfant": 1.23}, {"nom": "Thaïlande", "natalite": 9.8, "mortalite": 8.1, "esperance": 77.5, "croissance": 2.0, "enfant": 1.49}, {"nom": "Timor-Est", "natalite": 28.7, "mortalite": 5.8, "esperance": 69.9, "croissance": 19.0, "enfant": 3.76}, {"nom": "Viêt Nam", "natalite": 15.8, "mortalite": 6.5, "esperance": 75.6, "croissance": 8.2, "enfant": 2.04}]
+[
+  {
+    "nom": "Afrique du Sud",
+    "demographic": {
+      "birthRate": 19.4,
+      "mortalityRate": 9.4,
+      "lifeExpectancy": 64.6,
+      "infantMortality": 24.4,
+      "childPerWoman": 2.34
+    },
+    "economicGrowth": 12.1
+  },
+  {
+    "nom": "Botswana",
+    "demographic": {
+      "birthRate": 23.1,
+      "mortalityRate": 5.8,
+      "lifeExpectancy": 69.9,
+      "infantMortality": 27.6,
+      "childPerWoman": 2.76
+    },
+    "economicGrowth": 18.7
+  },
+  {
+    "nom": "Eswatini",
+    "demographic": {
+      "birthRate": 24.9,
+      "mortalityRate": 8.8,
+      "lifeExpectancy": 61.0,
+      "infantMortality": 36.5,
+      "childPerWoman": 2.88
+    },
+    "economicGrowth": 10.5
+  },
+  {
+    "nom": "Lesotho",
+    "demographic": {
+      "birthRate": 25.6,
+      "mortalityRate": 13.5,
+      "lifeExpectancy": 55.2,
+      "infantMortality": 54.4,
+      "childPerWoman": 3.03
+    },
+    "economicGrowth": 7.8
+  },
+  {
+    "nom": "Namibie",
+    "demographic": {
+      "birthRate": 27.2,
+      "mortalityRate": 7.6,
+      "lifeExpectancy": 64.4,
+      "infantMortality": 29.0,
+      "childPerWoman": 3.24
+    },
+    "economicGrowth": 18.0
+  },
+  {
+    "nom": "Angola",
+    "demographic": {
+      "birthRate": 39.4,
+      "mortalityRate": 7.6,
+      "lifeExpectancy": 61.8,
+      "infantMortality": 55.1,
+      "childPerWoman": 5.3
+    },
+    "economicGrowth": 31.8
+  },
+  {
+    "nom": "Cameroun",
+    "demographic": {
+      "birthRate": 34.0,
+      "mortalityRate": 8.7,
+      "lifeExpectancy": 59.9,
+      "infantMortality": 55.9,
+      "childPerWoman": 4.38
+    },
+    "economicGrowth": 25.1
+  },
+  {
+    "nom": "République centrafricaine",
+    "demographic": {
+      "birthRate": 34.7,
+      "mortalityRate": 11.5,
+      "lifeExpectancy": 54.0,
+      "infantMortality": 74.3,
+      "childPerWoman": 4.49
+    },
+    "economicGrowth": 19.0
+  },
+  {
+    "nom": "Congo",
+    "demographic": {
+      "birthRate": 31.6,
+      "mortalityRate": 6.5,
+      "lifeExpectancy": 65.0,
+      "infantMortality": 32.2,
+      "childPerWoman": 4.27
+    },
+    "economicGrowth": 24.7
+  },
+  {
+    "nom": "Congo",
+    "demographic": {
+      "birthRate": 39.6,
+      "mortalityRate": 9.0,
+      "lifeExpectancy": 61.2,
+      "infantMortality": 61.0,
+      "childPerWoman": 5.62
+    },
+    "economicGrowth": 30.7
+  },
+  {
+    "nom": "Gabon",
+    "demographic": {
+      "birthRate": 29.5,
+      "mortalityRate": 6.5,
+      "lifeExpectancy": 66.9,
+      "infantMortality": 32.1,
+      "childPerWoman": 3.81
+    },
+    "economicGrowth": 23.2
+  },
+  {
+    "nom": "Guinée-Équatoriale",
+    "demographic": {
+      "birthRate": 31.9,
+      "mortalityRate": 8.7,
+      "lifeExpectancy": 59.4,
+      "infantMortality": 60.6,
+      "childPerWoman": 4.27
+    },
+    "economicGrowth": 32.3
+  },
+  {
+    "nom": "Sao Tomé-et-Principe",
+    "demographic": {
+      "birthRate": 30.5,
+      "mortalityRate": 4.7,
+      "lifeExpectancy": 70.8,
+      "infantMortality": 23.5,
+      "childPerWoman": 4.16
+    },
+    "economicGrowth": 19.1
+  },
+  {
+    "nom": "Tchad",
+    "demographic": {
+      "birthRate": 40.7,
+      "mortalityRate": 11.5,
+      "lifeExpectancy": 54.8,
+      "infantMortality": 69.1,
+      "childPerWoman": 5.46
+    },
+    "economicGrowth": 29.2
+  },
+  {
+    "nom": "Bénin",
+    "demographic": {
+      "birthRate": 35.1,
+      "mortalityRate": 8.4,
+      "lifeExpectancy": 62.4,
+      "infantMortality": 56.2,
+      "childPerWoman": 4.64
+    },
+    "economicGrowth": 26.6
+  },
+  {
+    "nom": "Burkina Faso",
+    "demographic": {
+      "birthRate": 36.5,
+      "mortalityRate": 7.5,
+      "lifeExpectancy": 62.4,
+      "infantMortality": 47.6,
+      "childPerWoman": 4.95
+    },
+    "economicGrowth": 27.9
+  },
+  {
+    "nom": "Cap Vert",
+    "demographic": {
+      "birthRate": 18.2,
+      "mortalityRate": 5.5,
+      "lifeExpectancy": 73.3,
+      "infantMortality": 14.9,
+      "childPerWoman": 2.19
+    },
+    "economicGrowth": 10.4
+  },
+  {
+    "nom": "Côte d'Ivoire",
+    "demographic": {
+      "birthRate": 34.9,
+      "mortalityRate": 9.6,
+      "lifeExpectancy": 58.4,
+      "infantMortality": 55.6,
+      "childPerWoman": 4.48
+    },
+    "economicGrowth": 25.2
+  },
+  {
+    "nom": "Gambie",
+    "demographic": {
+      "birthRate": 37.1,
+      "mortalityRate": 7.4,
+      "lifeExpectancy": 62.7,
+      "infantMortality": 40.2,
+      "childPerWoman": 5.02
+    },
+    "economicGrowth": 28.5
+  },
+  {
+    "nom": "Ghana",
+    "demographic": {
+      "birthRate": 28.2,
+      "mortalityRate": 7.1,
+      "lifeExpectancy": 64.6,
+      "infantMortality": 31.9,
+      "childPerWoman": 3.72
+    },
+    "economicGrowth": 20.8
+  },
+  {
+    "nom": "Guinée",
+    "demographic": {
+      "birthRate": 35.2,
+      "mortalityRate": 7.9,
+      "lifeExpectancy": 62.3,
+      "infantMortality": 46.3,
+      "childPerWoman": 4.48
+    },
+    "economicGrowth": 27.2
+  },
+  {
+    "nom": "Guinée-Bissau",
+    "demographic": {
+      "birthRate": 33.5,
+      "mortalityRate": 9.1,
+      "lifeExpectancy": 58.9,
+      "infantMortality": 52.0,
+      "childPerWoman": 4.26
+    },
+    "economicGrowth": 23.7
+  },
+  {
+    "nom": "Liberia",
+    "demographic": {
+      "birthRate": 32.0,
+      "mortalityRate": 7.2,
+      "lifeExpectancy": 64.7,
+      "infantMortality": 49.0,
+      "childPerWoman": 4.12
+    },
+    "economicGrowth": 23.9
+  },
+  {
+    "nom": "Mali",
+    "demographic": {
+      "birthRate": 40.1,
+      "mortalityRate": 8.9,
+      "lifeExpectancy": 60.1,
+      "infantMortality": 59.4,
+      "childPerWoman": 5.6
+    },
+    "economicGrowth": 29.3
+  },
+  {
+    "nom": "Mauritanie",
+    "demographic": {
+      "birthRate": 32.4,
+      "mortalityRate": 6.9,
+      "lifeExpectancy": 65.3,
+      "infantMortality": 49.7,
+      "childPerWoman": 4.4
+    },
+    "economicGrowth": 26.4
+  },
+  {
+    "nom": "Niger",
+    "demographic": {
+      "birthRate": 44.8,
+      "mortalityRate": 7.6,
+      "lifeExpectancy": 63.1,
+      "infantMortality": 41.1,
+      "childPerWoman": 6.65
+    },
+    "economicGrowth": 37.3
+  },
+  {
+    "nom": "Nigéria",
+    "demographic": {
+      "birthRate": 36.6,
+      "mortalityRate": 11.2,
+      "lifeExpectancy": 55.3,
+      "infantMortality": 56.4,
+      "childPerWoman": 5.18
+    },
+    "economicGrowth": 25.1
+  },
+  {
+    "nom": "Sénégal",
+    "demographic": {
+      "birthRate": 32.9,
+      "mortalityRate": 5.4,
+      "lifeExpectancy": 68.5,
+      "infantMortality": 28.3,
+      "childPerWoman": 4.43
+    },
+    "economicGrowth": 26.5
+  },
+  {
+    "nom": "Sierra Leone",
+    "demographic": {
+      "birthRate": 31.8,
+      "mortalityRate": 11.1,
+      "lifeExpectancy": 55.4,
+      "infantMortality": 72.8,
+      "childPerWoman": 3.99
+    },
+    "economicGrowth": 20.2
+  },
+  {
+    "nom": "Togo",
+    "demographic": {
+      "birthRate": 32.0,
+      "mortalityRate": 8.1,
+      "lifeExpectancy": 61.7,
+      "infantMortality": 45.1,
+      "childPerWoman": 4.14
+    },
+    "economicGrowth": 23.7
+  },
+  {
+    "nom": "Burundi",
+    "demographic": {
+      "birthRate": 37.2,
+      "mortalityRate": 7.5,
+      "lifeExpectancy": 62.2,
+      "infantMortality": 38.1,
+      "childPerWoman": 5.16
+    },
+    "economicGrowth": 30.0
+  },
+  {
+    "nom": "Comores",
+    "demographic": {
+      "birthRate": 30.5,
+      "mortalityRate": 7.0,
+      "lifeExpectancy": 64.7,
+      "infantMortality": 50.0,
+      "childPerWoman": 4.01
+    },
+    "economicGrowth": 21.3
+  },
+  {
+    "nom": "Djibouti",
+    "demographic": {
+      "birthRate": 20.1,
+      "mortalityRate": 6.9,
+      "lifeExpectancy": 67.7,
+      "infantMortality": 29.0,
+      "childPerWoman": 2.58
+    },
+    "economicGrowth": 14.0
+  },
+  {
+    "nom": "Érythrée",
+    "demographic": {
+      "birthRate": 28.7,
+      "mortalityRate": 6.7,
+      "lifeExpectancy": 67.0,
+      "infantMortality": 29.0,
+      "childPerWoman": 3.87
+    },
+    "economicGrowth": 16.1
+  },
+  {
+    "nom": "Éthiopie",
+    "demographic": {
+      "birthRate": 31.0,
+      "mortalityRate": 6.2,
+      "lifeExpectancy": 67.3,
+      "infantMortality": 31.6,
+      "childPerWoman": 3.96
+    },
+    "economicGrowth": 24.8
+  },
+  {
+    "nom": "Kenya",
+    "demographic": {
+      "birthRate": 27.6,
+      "mortalityRate": 5.3,
+      "lifeExpectancy": 67.2,
+      "infantMortality": 32.3,
+      "childPerWoman": 3.31
+    },
+    "economicGrowth": 22.2
+  },
+  {
+    "nom": "Madagascar",
+    "demographic": {
+      "birthRate": 31.9,
+      "mortalityRate": 5.7,
+      "lifeExpectancy": 67.7,
+      "infantMortality": 24.6,
+      "childPerWoman": 3.93
+    },
+    "economicGrowth": 26.2
+  },
+  {
+    "nom": "Malawi",
+    "demographic": {
+      "birthRate": 33.2,
+      "mortalityRate": 6.1,
+      "lifeExpectancy": 65.1,
+      "infantMortality": 34.9,
+      "childPerWoman": 3.99
+    },
+    "economicGrowth": 26.7
+  },
+  {
+    "nom": "Île Maurice",
+    "demographic": {
+      "birthRate": 9.9,
+      "mortalityRate": 8.9,
+      "lifeExpectancy": 75.3,
+      "infantMortality": 10.2,
+      "childPerWoman": 1.35
+    },
+    "economicGrowth": 1.2
+  },
+  {
+    "nom": "Mayotte",
+    "demographic": {
+      "birthRate": 26.8,
+      "mortalityRate": 2.8,
+      "lifeExpectancy": 79.6,
+      "infantMortality": 4.0,
+      "childPerWoman": 3.52
+    },
+    "economicGrowth": 24.1
+  },
+  {
+    "nom": "Mozambique",
+    "demographic": {
+      "birthRate": 36.4,
+      "mortalityRate": 7.8,
+      "lifeExpectancy": 61.8,
+      "infantMortality": 47.5,
+      "childPerWoman": 4.64
+    },
+    "economicGrowth": 28.5
+  },
+  {
+    "nom": "Ouganda",
+    "demographic": {
+      "birthRate": 36.0,
+      "mortalityRate": 6.1,
+      "lifeExpectancy": 64.0,
+      "infantMortality": 40.8,
+      "childPerWoman": 4.59
+    },
+    "economicGrowth": 28.6
+  },
+  {
+    "nom": "Réunion",
+    "demographic": {
+      "birthRate": 14.2,
+      "mortalityRate": 6.4,
+      "lifeExpectancy": 81.1,
+      "infantMortality": 2.5,
+      "childPerWoman": 2.19
+    },
+    "economicGrowth": 7.1
+  },
+  {
+    "nom": "Rwanda",
+    "demographic": {
+      "birthRate": 30.1,
+      "mortalityRate": 5.0,
+      "lifeExpectancy": 69.6,
+      "infantMortality": 24.2,
+      "childPerWoman": 3.85
+    },
+    "economicGrowth": 24.4
+  },
+  {
+    "nom": "Seychelles",
+    "demographic": {
+      "birthRate": 15.6,
+      "mortalityRate": 8.0,
+      "lifeExpectancy": 73.6,
+      "infantMortality": 10.1,
+      "childPerWoman": 2.39
+    },
+    "economicGrowth": 5.5
+  },
+  {
+    "nom": "Somalie",
+    "demographic": {
+      "birthRate": 41.2,
+      "mortalityRate": 10.3,
+      "lifeExpectancy": 58.0,
+      "infantMortality": 64.4,
+      "childPerWoman": 5.79
+    },
+    "economicGrowth": 29.0
+  },
+  {
+    "nom": "Sud Soudan",
+    "demographic": {
+      "birthRate": 33.9,
+      "mortalityRate": 10.1,
+      "lifeExpectancy": 58.4,
+      "infantMortality": 60.6,
+      "childPerWoman": 4.47
+    },
+    "economicGrowth": 18.6
+  },
+  {
+    "nom": "Tanzanie",
+    "demographic": {
+      "birthRate": 35.6,
+      "mortalityRate": 6.0,
+      "lifeExpectancy": 66.1,
+      "infantMortality": 36.3,
+      "childPerWoman": 4.71
+    },
+    "economicGrowth": 29.0
+  },
+  {
+    "nom": "Zambie",
+    "demographic": {
+      "birthRate": 35.2,
+      "mortalityRate": 6.1,
+      "lifeExpectancy": 64.5,
+      "infantMortality": 41.1,
+      "childPerWoman": 4.44
+    },
+    "economicGrowth": 28.7
+  },
+  {
+    "nom": "Zimbabwe",
+    "demographic": {
+      "birthRate": 28.4,
+      "mortalityRate": 7.6,
+      "lifeExpectancy": 62.0,
+      "infantMortality": 34.9,
+      "childPerWoman": 3.4
+    },
+    "economicGrowth": 15.5
+  },
+  {
+    "nom": "Algérie",
+    "demographic": {
+      "birthRate": 21.9,
+      "mortalityRate": 4.7,
+      "lifeExpectancy": 77.2,
+      "infantMortality": 19.2,
+      "childPerWoman": 2.89
+    },
+    "economicGrowth": 16.8
+  },
+  {
+    "nom": "Égypte",
+    "demographic": {
+      "birthRate": 24.5,
+      "mortalityRate": 5.7,
+      "lifeExpectancy": 72.3,
+      "infantMortality": 13.8,
+      "childPerWoman": 3.19
+    },
+    "economicGrowth": 18.3
+  },
+  {
+    "nom": "Libye",
+    "demographic": {
+      "birthRate": 17.3,
+      "mortalityRate": 5.2,
+      "lifeExpectancy": 73.2,
+      "infantMortality": 9.4,
+      "childPerWoman": 2.15
+    },
+    "economicGrowth": 12.2
+  },
+  {
+    "nom": "Maroc",
+    "demographic": {
+      "birthRate": 17.7,
+      "mortalityRate": 5.1,
+      "lifeExpectancy": 77.1,
+      "infantMortality": 17.2,
+      "childPerWoman": 2.33
+    },
+    "economicGrowth": 11.6
+  },
+  {
+    "nom": "Sahara Occidental",
+    "demographic": {
+      "birthRate": 19.1,
+      "mortalityRate": 4.9,
+      "lifeExpectancy": 70.7,
+      "infantMortality": 25.8,
+      "childPerWoman": 2.31
+    },
+    "economicGrowth": 23.6
+  },
+  {
+    "nom": "Soudan",
+    "demographic": {
+      "birthRate": 31.2,
+      "mortalityRate": 7.0,
+      "lifeExpectancy": 65.8,
+      "infantMortality": 39.4,
+      "childPerWoman": 4.23
+    },
+    "economicGrowth": 23.9
+  },
+  {
+    "nom": "Tunisie",
+    "demographic": {
+      "birthRate": 16.1,
+      "mortalityRate": 6.3,
+      "lifeExpectancy": 77.1,
+      "infantMortality": 11.2,
+      "childPerWoman": 2.13
+    },
+    "economicGrowth": 9.6
+  },
+  {
+    "nom": "Belize",
+    "demographic": {
+      "birthRate": 20.0,
+      "mortalityRate": 4.8,
+      "lifeExpectancy": 74.9,
+      "infantMortality": 11.7,
+      "childPerWoman": 2.22
+    },
+    "economicGrowth": 18.0
+  },
+  {
+    "nom": "Costa Rica",
+    "demographic": {
+      "birthRate": 13.1,
+      "mortalityRate": 5.3,
+      "lifeExpectancy": 80.7,
+      "infantMortality": 6.5,
+      "childPerWoman": 1.7
+    },
+    "economicGrowth": 8.6
+  },
+  {
+    "nom": "Guatemala",
+    "demographic": {
+      "birthRate": 23.5,
+      "mortalityRate": 4.7,
+      "lifeExpectancy": 74.7,
+      "infantMortality": 18.1,
+      "childPerWoman": 2.73
+    },
+    "economicGrowth": 18.3
+  },
+  {
+    "nom": "Honduras",
+    "demographic": {
+      "birthRate": 20.8,
+      "mortalityRate": 4.5,
+      "lifeExpectancy": 75.6,
+      "infantMortality": 13.6,
+      "childPerWoman": 2.36
+    },
+    "economicGrowth": 15.7
+  },
+  {
+    "nom": "Mexique",
+    "demographic": {
+      "birthRate": 16.7,
+      "mortalityRate": 6.2,
+      "lifeExpectancy": 75.2,
+      "infantMortality": 12.8,
+      "childPerWoman": 2.06
+    },
+    "economicGrowth": 10.1
+  },
+  {
+    "nom": "Nicaragua",
+    "demographic": {
+      "birthRate": 19.4,
+      "mortalityRate": 5.1,
+      "lifeExpectancy": 74.9,
+      "infantMortality": 14.9,
+      "childPerWoman": 2.32
+    },
+    "economicGrowth": 11.5
+  },
+  {
+    "nom": "Panama",
+    "demographic": {
+      "birthRate": 18.2,
+      "mortalityRate": 5.2,
+      "lifeExpectancy": 78.9,
+      "infantMortality": 13.0,
+      "childPerWoman": 2.4
+    },
+    "economicGrowth": 15.1
+  },
+  {
+    "nom": "Salvador",
+    "demographic": {
+      "birthRate": 17.6,
+      "mortalityRate": 7.1,
+      "lifeExpectancy": 73.7,
+      "infantMortality": 12.7,
+      "childPerWoman": 1.98
+    },
+    "economicGrowth": 4.9
+  },
+  {
+    "nom": "Argentine",
+    "demographic": {
+      "birthRate": 16.5,
+      "mortalityRate": 7.6,
+      "lifeExpectancy": 77.0,
+      "infantMortality": 9.3,
+      "childPerWoman": 2.22
+    },
+    "economicGrowth": 8.9
+  },
+  {
+    "nom": "Bolivie",
+    "demographic": {
+      "birthRate": 20.9,
+      "mortalityRate": 6.8,
+      "lifeExpectancy": 72.0,
+      "infantMortality": 26.7,
+      "childPerWoman": 2.62
+    },
+    "economicGrowth": 13.5
+  },
+  {
+    "nom": "Brésil",
+    "demographic": {
+      "birthRate": 13.2,
+      "mortalityRate": 6.7,
+      "lifeExpectancy": 76.3,
+      "infantMortality": 11.5,
+      "childPerWoman": 1.69
+    },
+    "economicGrowth": 6.5
+  },
+  {
+    "nom": "Chili",
+    "demographic": {
+      "birthRate": 11.8,
+      "mortalityRate": 6.4,
+      "lifeExpectancy": 80.5,
+      "infantMortality": 6.2,
+      "childPerWoman": 1.6
+    },
+    "economicGrowth": 3.5
+  },
+  {
+    "nom": "Colombie",
+    "demographic": {
+      "birthRate": 14.2,
+      "mortalityRate": 5.8,
+      "lifeExpectancy": 77.6,
+      "infantMortality": 11.5,
+      "childPerWoman": 1.75
+    },
+    "economicGrowth": 6.2
+  },
+  {
+    "nom": "Équateur",
+    "demographic": {
+      "birthRate": 18.9,
+      "mortalityRate": 5.2,
+      "lifeExpectancy": 77.4,
+      "infantMortality": 12.3,
+      "childPerWoman": 2.36
+    },
+    "economicGrowth": 13.2
+  },
+  {
+    "nom": "Guyane",
+    "demographic": {
+      "birthRate": 19.2,
+      "mortalityRate": 7.8,
+      "lifeExpectancy": 70.1,
+      "infantMortality": 25.1,
+      "childPerWoman": 2.4
+    },
+    "economicGrowth": 4.7
+  },
+  {
+    "nom": "Guyane (française)",
+    "demographic": {
+      "birthRate": 24.3,
+      "mortalityRate": 3.0,
+      "lifeExpectancy": 80.3,
+      "infantMortality": 8.1,
+      "childPerWoman": 3.25
+    },
+    "economicGrowth": 25.3
+  },
+  {
+    "nom": "Paraguay",
+    "demographic": {
+      "birthRate": 19.8,
+      "mortalityRate": 5.6,
+      "lifeExpectancy": 74.5,
+      "infantMortality": 17.9,
+      "childPerWoman": 2.36
+    },
+    "economicGrowth": 12.0
+  },
+  {
+    "nom": "Pérou",
+    "demographic": {
+      "birthRate": 17.3,
+      "mortalityRate": 5.7,
+      "lifeExpectancy": 77.2,
+      "infantMortality": 11.4,
+      "childPerWoman": 2.19
+    },
+    "economicGrowth": 10.7
+  },
+  {
+    "nom": "Surinam",
+    "demographic": {
+      "birthRate": 17.8,
+      "mortalityRate": 7.5,
+      "lifeExpectancy": 71.9,
+      "infantMortality": 16.0,
+      "childPerWoman": 2.35
+    },
+    "economicGrowth": 8.6
+  },
+  {
+    "nom": "Uruguay",
+    "demographic": {
+      "birthRate": 13.5,
+      "mortalityRate": 9.5,
+      "lifeExpectancy": 78.2,
+      "infantMortality": 7.9,
+      "childPerWoman": 1.94
+    },
+    "economicGrowth": 3.2
+  },
+  {
+    "nom": "Venezuela",
+    "demographic": {
+      "birthRate": 17.1,
+      "mortalityRate": 7.3,
+      "lifeExpectancy": 72.1,
+      "infantMortality": 26.2,
+      "childPerWoman": 2.21
+    },
+    "economicGrowth": 14.4
+  },
+  {
+    "nom": "Antigua-et-Barbuda",
+    "demographic": {
+      "birthRate": 14.6,
+      "mortalityRate": 6.6,
+      "lifeExpectancy": 77.3,
+      "infantMortality": 4.7,
+      "childPerWoman": 1.97
+    },
+    "economicGrowth": 8.0
+  },
+  {
+    "nom": "Aruba",
+    "demographic": {
+      "birthRate": 11.9,
+      "mortalityRate": 9.5,
+      "lifeExpectancy": 76.6,
+      "infantMortality": 12.8,
+      "childPerWoman": 1.9
+    },
+    "economicGrowth": 3.9
+  },
+  {
+    "nom": "Bahamas",
+    "demographic": {
+      "birthRate": 13.7,
+      "mortalityRate": 7.0,
+      "lifeExpectancy": 74.2,
+      "infantMortality": 5.3,
+      "childPerWoman": 1.72
+    },
+    "economicGrowth": 9.2
+  },
+  {
+    "nom": "Barbade",
+    "demographic": {
+      "birthRate": 10.6,
+      "mortalityRate": 9.2,
+      "lifeExpectancy": 79.4,
+      "infantMortality": 9.3,
+      "childPerWoman": 1.63
+    },
+    "economicGrowth": 1.1
+  },
+  {
+    "nom": "Cuba",
+    "demographic": {
+      "birthRate": 9.6,
+      "mortalityRate": 9.5,
+      "lifeExpectancy": 79.0,
+      "infantMortality": 4.2,
+      "childPerWoman": 1.58
+    },
+    "economicGrowth": -0.9
+  },
+  {
+    "nom": "Curaçao",
+    "demographic": {
+      "birthRate": 10.5,
+      "mortalityRate": 9.2,
+      "lifeExpectancy": 79.2,
+      "infantMortality": 8.3,
+      "childPerWoman": 1.71
+    },
+    "economicGrowth": 4.4
+  },
+  {
+    "nom": "République dominicaine",
+    "demographic": {
+      "birthRate": 18.5,
+      "mortalityRate": 6.3,
+      "lifeExpectancy": 74.4,
+      "infantMortality": 23.9,
+      "childPerWoman": 2.27
+    },
+    "economicGrowth": 9.5
+  },
+  {
+    "nom": "Grenade",
+    "demographic": {
+      "birthRate": 15.6,
+      "mortalityRate": 9.6,
+      "lifeExpectancy": 72.5,
+      "infantMortality": 14.8,
+      "childPerWoman": 2.0
+    },
+    "economicGrowth": 4.2
+  },
+  {
+    "nom": "Guadeloupe",
+    "demographic": {
+      "birthRate": 11.4,
+      "mortalityRate": 8.6,
+      "lifeExpectancy": 82.5,
+      "infantMortality": 4.2,
+      "childPerWoman": 2.12
+    },
+    "economicGrowth": -0.4
+  },
+  {
+    "nom": "Haïti",
+    "demographic": {
+      "birthRate": 23.2,
+      "mortalityRate": 8.3,
+      "lifeExpectancy": 64.6,
+      "infantMortality": 49.8,
+      "childPerWoman": 2.8
+    },
+    "economicGrowth": 12.0
+  },
+  {
+    "nom": "Îles Vierges des États-Unis",
+    "demographic": {
+      "birthRate": 11.2,
+      "mortalityRate": 9.3,
+      "lifeExpectancy": 80.9,
+      "infantMortality": 7.6,
+      "childPerWoman": 1.98
+    },
+    "economicGrowth": -2.2
+  },
+  {
+    "nom": "Jamaïque",
+    "demographic": {
+      "birthRate": 15.5,
+      "mortalityRate": 7.6,
+      "lifeExpectancy": 74.7,
+      "infantMortality": 10.8,
+      "childPerWoman": 1.94
+    },
+    "economicGrowth": 4.0
+  },
+  {
+    "nom": "Martinique",
+    "demographic": {
+      "birthRate": 9.5,
+      "mortalityRate": 9.5,
+      "lifeExpectancy": 82.9,
+      "infantMortality": 5.0,
+      "childPerWoman": 1.84
+    },
+    "economicGrowth": -1.6
+  },
+  {
+    "nom": "Porto Rico",
+    "demographic": {
+      "birthRate": 6.5,
+      "mortalityRate": 10.1,
+      "lifeExpectancy": 80.4,
+      "infantMortality": 4.9,
+      "childPerWoman": 1.17
+    },
+    "economicGrowth": -5.5
+  },
+  {
+    "nom": "Saint-Lucie",
+    "demographic": {
+      "birthRate": 11.5,
+      "mortalityRate": 7.4,
+      "lifeExpectancy": 76.5,
+      "infantMortality": 11.4,
+      "childPerWoman": 1.4
+    },
+    "economicGrowth": 4.0
+  },
+  {
+    "nom": "Saint-Vincent-et-les-Grenadines",
+    "demographic": {
+      "birthRate": 13.8,
+      "mortalityRate": 9.4,
+      "lifeExpectancy": 72.8,
+      "infantMortality": 13.4,
+      "childPerWoman": 1.84
+    },
+    "economicGrowth": 2.8
+  },
+  {
+    "nom": "Trinité et Tobago",
+    "demographic": {
+      "birthRate": 11.9,
+      "mortalityRate": 8.8,
+      "lifeExpectancy": 73.7,
+      "infantMortality": 20.3,
+      "childPerWoman": 1.69
+    },
+    "economicGrowth": 2.5
+  },
+  {
+    "nom": "Caraïbes",
+    "demographic": {
+      "birthRate": 15.8,
+      "mortalityRate": 8.2,
+      "lifeExpectancy": 73.1,
+      "infantMortality": 28.6,
+      "childPerWoman": 2.14
+    },
+    "economicGrowth": 5.5
+  },
+  {
+    "nom": "Canada",
+    "demographic": {
+      "birthRate": 10.2,
+      "mortalityRate": 7.9,
+      "lifeExpectancy": 82.7,
+      "infantMortality": 4.1,
+      "childPerWoman": 1.49
+    },
+    "economicGrowth": 8.5
+  },
+  {
+    "nom": "États-Unis",
+    "demographic": {
+      "birthRate": 12.0,
+      "mortalityRate": 9.0,
+      "lifeExpectancy": 79.0,
+      "infantMortality": 5.6,
+      "childPerWoman": 1.77
+    },
+    "economicGrowth": 5.7
+  },
+  {
+    "nom": "Biélorussie",
+    "demographic": {
+      "birthRate": 11.2,
+      "mortalityRate": 12.5,
+      "lifeExpectancy": 75.1,
+      "infantMortality": 2.6,
+      "childPerWoman": 1.73
+    },
+    "economicGrowth": -0.9
+  },
+  {
+    "nom": "Bulgarie",
+    "demographic": {
+      "birthRate": 8.7,
+      "mortalityRate": 15.6,
+      "lifeExpectancy": 75.3,
+      "infantMortality": 5.6,
+      "childPerWoman": 1.6
+    },
+    "economicGrowth": -7.5
+  },
+  {
+    "nom": "Hongrie",
+    "demographic": {
+      "birthRate": 9.4,
+      "mortalityRate": 12.8,
+      "lifeExpectancy": 77.2,
+      "infantMortality": 3.6,
+      "childPerWoman": 1.53
+    },
+    "economicGrowth": -2.8
+  },
+  {
+    "nom": "Moldavie",
+    "demographic": {
+      "birthRate": 9.6,
+      "mortalityRate": 11.9,
+      "lifeExpectancy": 72.1,
+      "infantMortality": 11.1,
+      "childPerWoman": 1.29
+    },
+    "economicGrowth": -2.6
+  },
+  {
+    "nom": "Pologne",
+    "demographic": {
+      "birthRate": 9.4,
+      "mortalityRate": 10.5,
+      "lifeExpectancy": 79.1,
+      "infantMortality": 2.9,
+      "childPerWoman": 1.46
+    },
+    "economicGrowth": -1.4
+  },
+  {
+    "nom": "Roumanie",
+    "demographic": {
+      "birthRate": 9.4,
+      "mortalityRate": 13.3,
+      "lifeExpectancy": 76.3,
+      "infantMortality": 6.0,
+      "childPerWoman": 1.65
+    },
+    "economicGrowth": -5.4
+  },
+  {
+    "nom": "Russie",
+    "demographic": {
+      "birthRate": 11.8,
+      "mortalityRate": 12.9,
+      "lifeExpectancy": 72.9,
+      "infantMortality": 5.0,
+      "childPerWoman": 1.83
+    },
+    "economicGrowth": -0.4
+  },
+  {
+    "nom": "Slovaquie",
+    "demographic": {
+      "birthRate": 10.1,
+      "mortalityRate": 10.2,
+      "lifeExpectancy": 77.8,
+      "infantMortality": 4.3,
+      "childPerWoman": 1.54
+    },
+    "economicGrowth": 0.1
+  },
+  {
+    "nom": "République tchéque",
+    "demographic": {
+      "birthRate": 10.0,
+      "mortalityRate": 10.7,
+      "lifeExpectancy": 79.7,
+      "infantMortality": 2.1,
+      "childPerWoman": 1.68
+    },
+    "economicGrowth": 1.3
+  },
+  {
+    "nom": "Ukraine",
+    "demographic": {
+      "birthRate": 8.9,
+      "mortalityRate": 15.2,
+      "lifeExpectancy": 72.3,
+      "infantMortality": 6.3,
+      "childPerWoman": 1.43
+    },
+    "economicGrowth": -6.2
+  },
+  {
+    "nom": "Allemagne",
+    "demographic": {
+      "birthRate": 9.5,
+      "mortalityRate": 11.6,
+      "lifeExpectancy": 81.6,
+      "infantMortality": 2.5,
+      "childPerWoman": 1.61
+    },
+    "economicGrowth": 0.6
+  },
+  {
+    "nom": "Autriche",
+    "demographic": {
+      "birthRate": 10.0,
+      "mortalityRate": 10.0,
+      "lifeExpectancy": 81.8,
+      "infantMortality": 2.6,
+      "childPerWoman": 1.56
+    },
+    "economicGrowth": 3.3
+  },
+  {
+    "nom": "Belgique",
+    "demographic": {
+      "birthRate": 10.7,
+      "mortalityRate": 9.8,
+      "lifeExpectancy": 81.9,
+      "infantMortality": 2.5,
+      "childPerWoman": 1.72
+    },
+    "economicGrowth": 3.4
+  },
+  {
+    "nom": "France",
+    "demographic": {
+      "birthRate": 10.9,
+      "mortalityRate": 9.5,
+      "lifeExpectancy": 82.9,
+      "infantMortality": 2.8,
+      "childPerWoman": 1.84
+    },
+    "economicGrowth": 2.4
+  },
+  {
+    "nom": "Luxembourg",
+    "demographic": {
+      "birthRate": 10.4,
+      "mortalityRate": 7.1,
+      "lifeExpectancy": 82.6,
+      "infantMortality": 2.6,
+      "childPerWoman": 1.42
+    },
+    "economicGrowth": 12.9
+  },
+  {
+    "nom": "Pays-Bas",
+    "demographic": {
+      "birthRate": 10.1,
+      "mortalityRate": 9.0,
+      "lifeExpectancy": 82.6,
+      "infantMortality": 2.2,
+      "childPerWoman": 1.67
+    },
+    "economicGrowth": 2.2
+  },
+  {
+    "nom": "Suisse",
+    "demographic": {
+      "birthRate": 10.2,
+      "mortalityRate": 8.1,
+      "lifeExpectancy": 84.1,
+      "infantMortality": 3.1,
+      "childPerWoman": 1.55
+    },
+    "economicGrowth": 6.8
+  },
+  {
+    "nom": "Anglo-Normandes (Îles)",
+    "demographic": {
+      "birthRate": 9.8,
+      "mortalityRate": 7.9,
+      "lifeExpectancy": 83.4,
+      "infantMortality": 5.7,
+      "childPerWoman": 1.52
+    },
+    "economicGrowth": 7.4
+  },
+  {
+    "nom": "Danemark",
+    "demographic": {
+      "birthRate": 11.0,
+      "mortalityRate": 9.9,
+      "lifeExpectancy": 81.2,
+      "infantMortality": 2.8,
+      "childPerWoman": 1.77
+    },
+    "economicGrowth": 3.7
+  },
+  {
+    "nom": "Estonie",
+    "demographic": {
+      "birthRate": 10.1,
+      "mortalityRate": 12.0,
+      "lifeExpectancy": 79.0,
+      "infantMortality": 1.7,
+      "childPerWoman": 1.62
+    },
+    "economicGrowth": -1.8
+  },
+  {
+    "nom": "Finlande",
+    "demographic": {
+      "birthRate": 8.7,
+      "mortalityRate": 9.9,
+      "lifeExpectancy": 82.2,
+      "infantMortality": 1.5,
+      "childPerWoman": 1.44
+    },
+    "economicGrowth": 1.3
+  },
+  {
+    "nom": "Irlande",
+    "demographic": {
+      "birthRate": 11.7,
+      "mortalityRate": 6.3,
+      "lifeExpectancy": 82.6,
+      "infantMortality": 2.1,
+      "childPerWoman": 1.8
+    },
+    "economicGrowth": 8.3
+  },
+  {
+    "nom": "Islande",
+    "demographic": {
+      "birthRate": 11.6,
+      "mortalityRate": 6.8,
+      "lifeExpectancy": 83.3,
+      "infantMortality": 1.1,
+      "childPerWoman": 1.72
+    },
+    "economicGrowth": 6.0
+  },
+  {
+    "nom": "Lettonie",
+    "demographic": {
+      "birthRate": 10.2,
+      "mortalityRate": 14.9,
+      "lifeExpectancy": 75.5,
+      "infantMortality": 2.9,
+      "childPerWoman": 1.75
+    },
+    "economicGrowth": -10.0
+  },
+  {
+    "nom": "Lituanie",
+    "demographic": {
+      "birthRate": 10.0,
+      "mortalityRate": 14.1,
+      "lifeExpectancy": 76.2,
+      "infantMortality": 3.7,
+      "childPerWoman": 1.7
+    },
+    "economicGrowth": -11.3
+  },
+  {
+    "nom": "Norvège",
+    "demographic": {
+      "birthRate": 11.1,
+      "mortalityRate": 7.9,
+      "lifeExpectancy": 82.7,
+      "infantMortality": 1.8,
+      "childPerWoman": 1.68
+    },
+    "economicGrowth": 8.2
+  },
+  {
+    "nom": "Royaume-Uni",
+    "demographic": {
+      "birthRate": 11.3,
+      "mortalityRate": 9.5,
+      "lifeExpectancy": 81.5,
+      "infantMortality": 3.5,
+      "childPerWoman": 1.74
+    },
+    "economicGrowth": 4.5
+  },
+  {
+    "nom": "Suède",
+    "demographic": {
+      "birthRate": 11.8,
+      "mortalityRate": 9.1,
+      "lifeExpectancy": 83.1,
+      "infantMortality": 1.8,
+      "childPerWoman": 1.84
+    },
+    "economicGrowth": 5.9
+  },
+  {
+    "nom": "Albanie",
+    "demographic": {
+      "birthRate": 11.3,
+      "mortalityRate": 8.4,
+      "lifeExpectancy": 78.8,
+      "infantMortality": 7.4,
+      "childPerWoman": 1.56
+    },
+    "economicGrowth": -2.0
+  },
+  {
+    "nom": "Bosnie-Herzégovine",
+    "demographic": {
+      "birthRate": 7.6,
+      "mortalityRate": 11.2,
+      "lifeExpectancy": 77.7,
+      "infantMortality": 5.4,
+      "childPerWoman": 1.23
+    },
+    "economicGrowth": -4.8
+  },
+  {
+    "nom": "Croatie",
+    "demographic": {
+      "birthRate": 8.5,
+      "mortalityRate": 13.3,
+      "lifeExpectancy": 78.8,
+      "infantMortality": 3.6,
+      "childPerWoman": 1.42
+    },
+    "economicGrowth": -5.6
+  },
+  {
+    "nom": "Espagne",
+    "demographic": {
+      "birthRate": 8.0,
+      "mortalityRate": 9.4,
+      "lifeExpectancy": 83.8,
+      "infantMortality": 2.1,
+      "childPerWoman": 1.37
+    },
+    "economicGrowth": -0.4
+  },
+  {
+    "nom": "Grèce",
+    "demographic": {
+      "birthRate": 7.1,
+      "mortalityRate": 11.2,
+      "lifeExpectancy": 82.6,
+      "infantMortality": 2.5,
+      "childPerWoman": 1.27
+    },
+    "economicGrowth": -5.1
+  },
+  {
+    "nom": "Italie",
+    "demographic": {
+      "birthRate": 7.1,
+      "mortalityRate": 10.8,
+      "lifeExpectancy": 83.8,
+      "infantMortality": 2.3,
+      "childPerWoman": 1.3
+    },
+    "economicGrowth": -1.7
+  },
+  {
+    "nom": "Macédoine",
+    "demographic": {
+      "birthRate": 10.3,
+      "mortalityRate": 10.3,
+      "lifeExpectancy": 76.1,
+      "infantMortality": 9.9,
+      "childPerWoman": 1.48
+    },
+    "economicGrowth": -0.5
+  },
+  {
+    "nom": "Malte",
+    "demographic": {
+      "birthRate": 9.8,
+      "mortalityRate": 8.7,
+      "lifeExpectancy": 82.8,
+      "infantMortality": 4.5,
+      "childPerWoman": 1.49
+    },
+    "economicGrowth": 2.8
+  },
+  {
+    "nom": "Monténégro",
+    "demographic": {
+      "birthRate": 11.5,
+      "mortalityRate": 10.8,
+      "lifeExpectancy": 77.2,
+      "infantMortality": 2.4,
+      "childPerWoman": 1.75
+    },
+    "economicGrowth": -0.1
+  },
+  {
+    "nom": "Portugal",
+    "demographic": {
+      "birthRate": 7.7,
+      "mortalityRate": 11.0,
+      "lifeExpectancy": 82.4,
+      "infantMortality": 2.6,
+      "childPerWoman": 1.33
+    },
+    "economicGrowth": -2.8
+  },
+  {
+    "nom": "Serbie",
+    "demographic": {
+      "birthRate": 9.2,
+      "mortalityRate": 13.2,
+      "lifeExpectancy": 76.3,
+      "infantMortality": 4.4,
+      "childPerWoman": 1.43
+    },
+    "economicGrowth": -4.9
+  },
+  {
+    "nom": "Slovénie",
+    "demographic": {
+      "birthRate": 9.2,
+      "mortalityRate": 10.3,
+      "lifeExpectancy": 81.6,
+      "infantMortality": 1.7,
+      "childPerWoman": 1.63
+    },
+    "economicGrowth": -0.2
+  },
+  {
+    "nom": "Australie",
+    "demographic": {
+      "birthRate": 12.3,
+      "mortalityRate": 6.7,
+      "lifeExpectancy": 83.7,
+      "infantMortality": 2.8,
+      "childPerWoman": 1.8
+    },
+    "economicGrowth": 11.0
+  },
+  {
+    "nom": "Nouvelle-Zélande",
+    "demographic": {
+      "birthRate": 12.3,
+      "mortalityRate": 7.1,
+      "lifeExpectancy": 82.6,
+      "infantMortality": 3.5,
+      "childPerWoman": 1.86
+    },
+    "economicGrowth": 7.8
+  },
+  {
+    "nom": "Fidji",
+    "demographic": {
+      "birthRate": 20.2,
+      "mortalityRate": 8.4,
+      "lifeExpectancy": 67.7,
+      "infantMortality": 19.0,
+      "childPerWoman": 2.7
+    },
+    "economicGrowth": 7.2
+  },
+  {
+    "nom": "Nouvelle-Calédonie",
+    "demographic": {
+      "birthRate": 13.6,
+      "mortalityRate": 6.0,
+      "lifeExpectancy": 77.9,
+      "infantMortality": 10.7,
+      "childPerWoman": 1.91
+    },
+    "economicGrowth": 9.4
+  },
+  {
+    "nom": "Papouasie-Nouvelle-Guinée",
+    "demographic": {
+      "birthRate": 26.3,
+      "mortalityRate": 7.3,
+      "lifeExpectancy": 64.9,
+      "infantMortality": 38.1,
+      "childPerWoman": 3.44
+    },
+    "economicGrowth": 18.9
+  },
+  {
+    "nom": " Îles Salomon",
+    "demographic": {
+      "birthRate": 30.9,
+      "mortalityRate": 4.2,
+      "lifeExpectancy": 73.2,
+      "infantMortality": 14.1,
+      "childPerWoman": 4.25
+    },
+    "economicGrowth": 24.4
+  },
+  {
+    "nom": "Vanuatu",
+    "demographic": {
+      "birthRate": 28.4,
+      "mortalityRate": 5.1,
+      "lifeExpectancy": 70.8,
+      "infantMortality": 20.1,
+      "childPerWoman": 3.67
+    },
+    "economicGrowth": 23.4
+  },
+  {
+    "nom": "Guam",
+    "demographic": {
+      "birthRate": 16.2,
+      "mortalityRate": 5.4,
+      "lifeExpectancy": 80.5,
+      "infantMortality": 8.0,
+      "childPerWoman": 2.26
+    },
+    "economicGrowth": 8.1
+  },
+  {
+    "nom": "Kiribati",
+    "demographic": {
+      "birthRate": 26.5,
+      "mortalityRate": 6.2,
+      "lifeExpectancy": 68.8,
+      "infantMortality": 38.7,
+      "childPerWoman": 3.46
+    },
+    "economicGrowth": 16.4
+  },
+  {
+    "nom": "Micronésie",
+    "demographic": {
+      "birthRate": 22.5,
+      "mortalityRate": 6.8,
+      "lifeExpectancy": 68.1,
+      "infantMortality": 21.3,
+      "childPerWoman": 2.93
+    },
+    "economicGrowth": 10.6
+  },
+  {
+    "nom": "Polynésie française",
+    "demographic": {
+      "birthRate": 13.9,
+      "mortalityRate": 5.9,
+      "lifeExpectancy": 78.0,
+      "infantMortality": 6.0,
+      "childPerWoman": 1.9
+    },
+    "economicGrowth": 5.8
+  },
+  {
+    "nom": "Samoa",
+    "demographic": {
+      "birthRate": 23.6,
+      "mortalityRate": 5.2,
+      "lifeExpectancy": 73.6,
+      "infantMortality": 12.2,
+      "childPerWoman": 3.74
+    },
+    "economicGrowth": 9.6
+  },
+  {
+    "nom": "Tonga",
+    "demographic": {
+      "birthRate": 23.5,
+      "mortalityRate": 7.0,
+      "lifeExpectancy": 71.1,
+      "infantMortality": 11.4,
+      "childPerWoman": 3.45
+    },
+    "economicGrowth": 9.6
+  },
+  {
+    "nom": "Chine",
+    "demographic": {
+      "birthRate": 11.0,
+      "mortalityRate": 7.6,
+      "lifeExpectancy": 77.3,
+      "infantMortality": 8.8,
+      "childPerWoman": 1.7
+    },
+    "economicGrowth": 3.2
+  },
+  {
+    "nom": "Hong Kong",
+    "demographic": {
+      "birthRate": 11.0,
+      "mortalityRate": 7.0,
+      "lifeExpectancy": 85.1,
+      "infantMortality": 1.2,
+      "childPerWoman": 1.39
+    },
+    "economicGrowth": 7.1
+  },
+  {
+    "nom": "Macao",
+    "demographic": {
+      "birthRate": 10.5,
+      "mortalityRate": 4.2,
+      "lifeExpectancy": 84.5,
+      "infantMortality": 2.4,
+      "childPerWoman": 1.26
+    },
+    "economicGrowth": 13.8
+  },
+  {
+    "nom": "Corée du Nord",
+    "demographic": {
+      "birthRate": 13.7,
+      "mortalityRate": 9.4,
+      "lifeExpectancy": 72.6,
+      "infantMortality": 11.8,
+      "childPerWoman": 1.88
+    },
+    "economicGrowth": 4.1
+  },
+  {
+    "nom": "Corée du Sud",
+    "demographic": {
+      "birthRate": 6.9,
+      "mortalityRate": 6.6,
+      "lifeExpectancy": 83.3,
+      "infantMortality": 1.8,
+      "childPerWoman": 1.08
+    },
+    "economicGrowth": 0.6
+  },
+  {
+    "nom": "Japon",
+    "demographic": {
+      "birthRate": 7.1,
+      "mortalityRate": 11.2,
+      "lifeExpectancy": 84.9,
+      "infantMortality": 1.6,
+      "childPerWoman": 1.36
+    },
+    "economicGrowth": -3.5
+  },
+  {
+    "nom": "Mongolie",
+    "demographic": {
+      "birthRate": 21.8,
+      "mortalityRate": 6.4,
+      "lifeExpectancy": 70.2,
+      "infantMortality": 15.6,
+      "childPerWoman": 2.8
+    },
+    "economicGrowth": 15.0
+  },
+  {
+    "nom": "Taïwan",
+    "demographic": {
+      "birthRate": 8.4,
+      "mortalityRate": 7.9,
+      "lifeExpectancy": 80.8,
+      "infantMortality": 3.4,
+      "childPerWoman": 1.21
+    },
+    "economicGrowth": 1.5
+  },
+  {
+    "nom": "Arabie Saoudite",
+    "demographic": {
+      "birthRate": 16.3,
+      "mortalityRate": 3.6,
+      "lifeExpectancy": 75.4,
+      "infantMortality": 5.5,
+      "childPerWoman": 2.21
+    },
+    "economicGrowth": 14.6
+  },
+  {
+    "nom": "Arménie",
+    "demographic": {
+      "birthRate": 12.9,
+      "mortalityRate": 9.8,
+      "lifeExpectancy": 75.4,
+      "infantMortality": 9.7,
+      "childPerWoman": 1.76
+    },
+    "economicGrowth": 1.5
+  },
+  {
+    "nom": "Azerbaïdjan",
+    "demographic": {
+      "birthRate": 14.9,
+      "mortalityRate": 6.9,
+      "lifeExpectancy": 73.2,
+      "infantMortality": 18.7,
+      "childPerWoman": 2.03
+    },
+    "economicGrowth": 7.9
+  },
+  {
+    "nom": "Bahreïn",
+    "demographic": {
+      "birthRate": 12.9,
+      "mortalityRate": 2.5,
+      "lifeExpectancy": 77.5,
+      "infantMortality": 5.3,
+      "childPerWoman": 1.92
+    },
+    "economicGrowth": 23.7
+  },
+  {
+    "nom": "Chypre",
+    "demographic": {
+      "birthRate": 9.8,
+      "mortalityRate": 7.3,
+      "lifeExpectancy": 81.3,
+      "infantMortality": 3.2,
+      "childPerWoman": 1.31
+    },
+    "economicGrowth": 6.6
+  },
+  {
+    "nom": "Émirats arabes unis",
+    "demographic": {
+      "birthRate": 10.0,
+      "mortalityRate": 1.7,
+      "lifeExpectancy": 78.3,
+      "infantMortality": 5.0,
+      "childPerWoman": 1.36
+    },
+    "economicGrowth": 9.6
+  },
+  {
+    "nom": "Géorgie",
+    "demographic": {
+      "birthRate": 12.6,
+      "mortalityRate": 12.7,
+      "lifeExpectancy": 74.1,
+      "infantMortality": 8.2,
+      "childPerWoman": 2.04
+    },
+    "economicGrowth": -2.6
+  },
+  {
+    "nom": "Irak",
+    "demographic": {
+      "birthRate": 27.8,
+      "mortalityRate": 4.7,
+      "lifeExpectancy": 70.9,
+      "infantMortality": 21.9,
+      "childPerWoman": 3.49
+    },
+    "economicGrowth": 23.6
+  },
+  {
+    "nom": "Israël",
+    "demographic": {
+      "birthRate": 19.4,
+      "mortalityRate": 5.3,
+      "lifeExpectancy": 83.3,
+      "infantMortality": 2.4,
+      "childPerWoman": 2.97
+    },
+    "economicGrowth": 15.2
+  },
+  {
+    "nom": "Jordanie",
+    "demographic": {
+      "birthRate": 20.8,
+      "mortalityRate": 3.9,
+      "lifeExpectancy": 74.8,
+      "infantMortality": 13.3,
+      "childPerWoman": 2.6
+    },
+    "economicGrowth": 4.8
+  },
+  {
+    "nom": "Koweït",
+    "demographic": {
+      "birthRate": 12.1,
+      "mortalityRate": 3.0,
+      "lifeExpectancy": 75.7,
+      "infantMortality": 6.4,
+      "childPerWoman": 2.06
+    },
+    "economicGrowth": 12.7
+  },
+  {
+    "nom": "Liban",
+    "demographic": {
+      "birthRate": 16.9,
+      "mortalityRate": 4.7,
+      "lifeExpectancy": 79.1,
+      "infantMortality": 9.1,
+      "childPerWoman": 2.05
+    },
+    "economicGrowth": -10.4
+  },
+  {
+    "nom": "Oman",
+    "demographic": {
+      "birthRate": 17.0,
+      "mortalityRate": 2.4,
+      "lifeExpectancy": 78.3,
+      "infantMortality": 6.4,
+      "childPerWoman": 2.72
+    },
+    "economicGrowth": 20.8
+  },
+  {
+    "nom": "Palestine",
+    "demographic": {
+      "birthRate": 27.8,
+      "mortalityRate": 3.4,
+      "lifeExpectancy": 74.4,
+      "infantMortality": 16.2,
+      "childPerWoman": 3.43
+    },
+    "economicGrowth": 23.4
+  },
+  {
+    "nom": "Qatar",
+    "demographic": {
+      "birthRate": 9.1,
+      "mortalityRate": 1.4,
+      "lifeExpectancy": 80.5,
+      "infantMortality": 5.7,
+      "childPerWoman": 1.81
+    },
+    "economicGrowth": 16.9
+  },
+  {
+    "nom": "Syrie",
+    "demographic": {
+      "birthRate": 22.2,
+      "mortalityRate": 4.5,
+      "lifeExpectancy": 74.6,
+      "infantMortality": 12.6,
+      "childPerWoman": 2.7
+    },
+    "economicGrowth": 50.6
+  },
+  {
+    "nom": "Turquie",
+    "demographic": {
+      "birthRate": 15.3,
+      "mortalityRate": 5.5,
+      "lifeExpectancy": 78.2,
+      "infantMortality": 7.6,
+      "childPerWoman": 2.02
+    },
+    "economicGrowth": 7.2
+  },
+  {
+    "nom": "Yémen",
+    "demographic": {
+      "birthRate": 28.7,
+      "mortalityRate": 6.0,
+      "lifeExpectancy": 66.3,
+      "infantMortality": 42.6,
+      "childPerWoman": 3.53
+    },
+    "economicGrowth": 21.8
+  },
+  {
+    "nom": "Afghanistan",
+    "demographic": {
+      "birthRate": 30.5,
+      "mortalityRate": 6.0,
+      "lifeExpectancy": 65.5,
+      "infantMortality": 46.6,
+      "childPerWoman": 4.04
+    },
+    "economicGrowth": 22.9
+  },
+  {
+    "nom": "Bangladesh",
+    "demographic": {
+      "birthRate": 17.2,
+      "mortalityRate": 5.5,
+      "lifeExpectancy": 73.1,
+      "infantMortality": 23.0,
+      "childPerWoman": 1.96
+    },
+    "economicGrowth": 9.6
+  },
+  {
+    "nom": "Bhoutan",
+    "demographic": {
+      "birthRate": 16.4,
+      "mortalityRate": 6.3,
+      "lifeExpectancy": 72.4,
+      "infantMortality": 20.7,
+      "childPerWoman": 1.91
+    },
+    "economicGrowth": 10.5
+  },
+  {
+    "nom": "Inde",
+    "demographic": {
+      "birthRate": 17.2,
+      "mortalityRate": 7.3,
+      "lifeExpectancy": 70.1,
+      "infantMortality": 28.0,
+      "childPerWoman": 2.17
+    },
+    "economicGrowth": 9.6
+  },
+  {
+    "nom": "Iran",
+    "demographic": {
+      "birthRate": 17.4,
+      "mortalityRate": 4.8,
+      "lifeExpectancy": 77.1,
+      "infantMortality": 11.2,
+      "childPerWoman": 2.13
+    },
+    "economicGrowth": 11.9
+  },
+  {
+    "nom": "Kazakhstan",
+    "demographic": {
+      "birthRate": 18.9,
+      "mortalityRate": 7.1,
+      "lifeExpectancy": 73.9,
+      "infantMortality": 6.5,
+      "childPerWoman": 2.68
+    },
+    "economicGrowth": 11.3
+  },
+  {
+    "nom": "Kirghizistan",
+    "demographic": {
+      "birthRate": 22.5,
+      "mortalityRate": 5.8,
+      "lifeExpectancy": 71.7,
+      "infantMortality": 13.7,
+      "childPerWoman": 2.87
+    },
+    "economicGrowth": 15.4
+  },
+  {
+    "nom": "Maldives",
+    "demographic": {
+      "birthRate": 12.6,
+      "mortalityRate": 2.7,
+      "lifeExpectancy": 79.5,
+      "infantMortality": 5.6,
+      "childPerWoman": 1.79
+    },
+    "economicGrowth": 0.4
+  },
+  {
+    "nom": "Népal",
+    "demographic": {
+      "birthRate": 18.9,
+      "mortalityRate": 6.3,
+      "lifeExpectancy": 71.3,
+      "infantMortality": 24.6,
+      "childPerWoman": 1.82
+    },
+    "economicGrowth": 18.3
+  },
+  {
+    "nom": "Ouzbékistan",
+    "demographic": {
+      "birthRate": 19.6,
+      "mortalityRate": 5.8,
+      "lifeExpectancy": 71.9,
+      "infantMortality": 19.0,
+      "childPerWoman": 2.35
+    },
+    "economicGrowth": 13.5
+  },
+  {
+    "nom": "Pakistan",
+    "demographic": {
+      "birthRate": 26.9,
+      "mortalityRate": 6.8,
+      "lifeExpectancy": 67.6,
+      "infantMortality": 57.4,
+      "childPerWoman": 3.33
+    },
+    "economicGrowth": 19.1
+  },
+  {
+    "nom": "Sri Lanka",
+    "demographic": {
+      "birthRate": 15.0,
+      "mortalityRate": 7.0,
+      "lifeExpectancy": 77.3,
+      "infantMortality": 6.8,
+      "childPerWoman": 2.16
+    },
+    "economicGrowth": 3.8
+  },
+  {
+    "nom": "Tadjikistan",
+    "demographic": {
+      "birthRate": 28.4,
+      "mortalityRate": 4.6,
+      "lifeExpectancy": 71.5,
+      "infantMortality": 25.7,
+      "childPerWoman": 3.48
+    },
+    "economicGrowth": 21.5
+  },
+  {
+    "nom": "Turkménistan",
+    "demographic": {
+      "birthRate": 21.7,
+      "mortalityRate": 7.1,
+      "lifeExpectancy": 68.4,
+      "infantMortality": 40.7,
+      "childPerWoman": 2.67
+    },
+    "economicGrowth": 14.0
+  },
+  {
+    "nom": "Brunei",
+    "demographic": {
+      "birthRate": 13.7,
+      "mortalityRate": 4.8,
+      "lifeExpectancy": 76.1,
+      "infantMortality": 7.2,
+      "childPerWoman": 1.78
+    },
+    "economicGrowth": 9.0
+  },
+  {
+    "nom": "Cambodge",
+    "demographic": {
+      "birthRate": 21.1,
+      "mortalityRate": 6.0,
+      "lifeExpectancy": 70.3,
+      "infantMortality": 20.4,
+      "childPerWoman": 2.43
+    },
+    "economicGrowth": 13.3
+  },
+  {
+    "nom": "Indonésie",
+    "demographic": {
+      "birthRate": 17.2,
+      "mortalityRate": 6.6,
+      "lifeExpectancy": 72.1,
+      "infantMortality": 16.5,
+      "childPerWoman": 2.25
+    },
+    "economicGrowth": 10.2
+  },
+  {
+    "nom": "Laos",
+    "demographic": {
+      "birthRate": 22.2,
+      "mortalityRate": 6.3,
+      "lifeExpectancy": 68.5,
+      "infantMortality": 34.5,
+      "childPerWoman": 2.54
+    },
+    "economicGrowth": 13.9
+  },
+  {
+    "nom": "Malaisie",
+    "demographic": {
+      "birthRate": 16.2,
+      "mortalityRate": 5.3,
+      "lifeExpectancy": 76.4,
+      "infantMortality": 5.4,
+      "childPerWoman": 1.95
+    },
+    "economicGrowth": 12.4
+  },
+  {
+    "nom": "Myanmar",
+    "demographic": {
+      "birthRate": 17.1,
+      "mortalityRate": 8.3,
+      "lifeExpectancy": 67.6,
+      "infantMortality": 34.8,
+      "childPerWoman": 2.1
+    },
+    "economicGrowth": 7.5
+  },
+  {
+    "nom": "Philippines",
+    "demographic": {
+      "birthRate": 19.7,
+      "mortalityRate": 6.0,
+      "lifeExpectancy": 71.5,
+      "infantMortality": 18.0,
+      "childPerWoman": 2.47
+    },
+    "economicGrowth": 13.2
+  },
+  {
+    "nom": "Singapour",
+    "demographic": {
+      "birthRate": 8.4,
+      "mortalityRate": 4.9,
+      "lifeExpectancy": 83.9,
+      "infantMortality": 1.5,
+      "childPerWoman": 1.23
+    },
+    "economicGrowth": 7.9
+  },
+  {
+    "nom": "Thaïlande",
+    "demographic": {
+      "birthRate": 9.8,
+      "mortalityRate": 8.1,
+      "lifeExpectancy": 77.5,
+      "infantMortality": 6.9,
+      "childPerWoman": 1.49
+    },
+    "economicGrowth": 2.0
+  },
+  {
+    "nom": "Timor",
+    "demographic": {
+      "birthRate": 28.7,
+      "mortalityRate": 5.8,
+      "lifeExpectancy": 69.9,
+      "infantMortality": 33.1,
+      "childPerWoman": 3.76
+    },
+    "economicGrowth": 19.0
+  },
+  {
+    "nom": "Viêt Nam",
+    "demographic": {
+      "birthRate": 15.8,
+      "mortalityRate": 6.5,
+      "lifeExpectancy": 75.6,
+      "infantMortality": 15.8,
+      "childPerWoman": 2.04
+    },
+    "economicGrowth": 8.2
+  }
+]

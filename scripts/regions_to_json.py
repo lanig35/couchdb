@@ -27,4 +27,4 @@ with open ("../dataset/regions-francaises.csv","r",encoding="utf-8") as f:
         regions.append(region)
 
 with open ("../dataset/regions.json", "w", encoding="utf-8") as f:
-    f.write (json.dumps(regions, ensure_ascii=False))
+    f.write (json.dumps(regions, indent=2, ensure_ascii=False))
