@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block title %} FlaskShortener Statistics {% endblock %}
+
+{% block content %}
+<div class="container">
+    <table class="table table-strip">
+        <thead>
+            <tr>
+            <th scope="col">#</th>
+            <th scope="col">Short</th>
+            <th scope="col">Original</th>
+            <th scope="col">Clicks</th>
+            <th scope="col">Creation Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for url in urls %}
+                <tr>
+                    <th scope="row">{{ url['id'] }}</th>
+                    <td><a href="{{ url['short_url'] }}">{{ url['short_url'] }}</a></td>
+                    <td><a href="#">{{ url['original_url'] }}</a></td>
+                    <td><span class="badge bg-primary">{{ url['clicks'] }}</span></td>
+                    <td>{{ url['created'] }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}
